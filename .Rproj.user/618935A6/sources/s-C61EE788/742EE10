@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1634620374117.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1508798208",
+    "id" : "742EE10",
+    "lastKnownWriteTime" : 1634664699,
+    "last_content_update" : 1634664699490,
+    "path" : "~/_AtelierR/botanic/_Botanic 2012/Quali/NPSgame/recode.Rmd",
+    "project_path" : "recode.Rmd",
+    "properties" : {
+        "cursorPosition" : "198,22",
+        "last_setup_crc32" : "C61EE788694878c9",
+        "scrollLine" : "192"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

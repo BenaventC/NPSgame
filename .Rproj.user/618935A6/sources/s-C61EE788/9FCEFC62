@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1634663730720.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9FCEFC62",
+    "lastKnownWriteTime" : 7957688328213717356,
+    "last_content_update" : 1634663730720,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "0a4000729a5a4dd79d98345a6207ed08",
+        "name" : "dfm",
+        "title" : "dfm"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

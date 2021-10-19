@@ -23,7 +23,6 @@ On utilise principalement les ressources de `quanteda` et l'analyse factorielle 
 ```{r setup,warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE, message=FALSE)
 library(tidyverse)
-library(readxl)
 library(lubridate)
 library(quanteda)
 library(quanteda.textplots)
@@ -31,9 +30,8 @@ library(quanteda.textstats)
 
 library(ggwordcloud)
 library(ggmosaic)
-#library(rcompanion)
+library(rcompanion)
 
-library(tidytext)
 library(cowplot)
 
 library ("FactoMineR")
@@ -64,9 +62,10 @@ Notre tableau de données rend compte de près de 14000 évaluations en terme de
 ```{r 03}
 foo1<-df %>%
   mutate(NPS=ifelse(nps<7, "Détracteurs", 
-                    ifelse(nps>6 & nps<9,"Passifs", "Promoteurs"))) %>% 
-  mutate(p=ifelse(NPS=="Promoteurs", 1, 0),
-         d=ifelse(NPS=="Détracteurs", 1, 0))
+                    ifelse(nps>6 & nps<9,"Passifs", "Promoteurs")),
+         mutate(p=ifelse(NPS=="Promoteurs", 1, 0),
+         d=ifelse(NPS=="Détracteurs", 1, 0)))
+
 
 #calcul du score NPS
 d<- mean(foo1$d, na.rm=TRUE)
@@ -77,9 +76,13 @@ score_nps<- round((p-d)*100,1)
 
 g<-ggplot(foo1, aes(x=nps))+
   geom_histogram(binwidth = 1,aes(fill=NPS))+
-  theme_bw()+ 
-  labs( title= " Distribution des scores NPS", subtitle = paste0("Score NPS = ", score_nps), caption = "n=13954", y = "Fréquence")+ scale_fill_manual(values=col)+
-  scale_x_discrete(name="Note NPS", breaks=c("1","2","3","4","5","6","7", "8", "9", 10),
+  labs( title= " Distribution des scores NPS", 
+        subtitle = paste0("Score NPS = ", score_nps), 
+        caption = "n=13954", 
+        y = "Fréquence")+ 
+  scale_fill_manual(values=col)+
+  scale_x_discrete(name="Note NPS", 
+                   breaks=c("1","2","3","4","5","6","7", "8", "9", 10),
                    limits=c("1","2","3","4","5","6","7", "8", "9", 10))
 g  
 ggsave("NPS1.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
@@ -90,21 +93,22 @@ Comme nous allons traiter du texte et que celui n'est présent que dans une part
 
 ```{r 02b}
 
-library(ggmosaic)
+#library(ggmosaic)
 #library(rcompanion)
 #recodons les répondants
 
-foo1 <- foo1 %>% mutate(reponse=ifelse(is.na(explication), "Pas de réponse", "Réponse"))
-table(foo1$reponse)
+foo1 <- foo1 %>% 
+  mutate(reponse=ifelse(is.na(explication), "Pas de réponse", "Réponse"))
 
 t<-table(foo1$NPS,foo1$reponse)
+
 chi2<-chisq.test(t)
 chi<-round(chi2$statistic,2)
 p<-round(chi2$p.value,3)
 V<-cramerV(t, digit=3)
 
 g1 <- ggplot(data = foo1) +
-  geom_mosaic(aes(x=product( NPS ,reponse), fill = NPS))+  
+  geom_mosaic(aes(x=product(NPS ,reponse), fill = NPS))+  
   theme(axis.text.x = element_text(angle = 45, hjust = -0.1, vjust = -0.2))+ 
   theme(legend.position = "none")+
   labs(title="Un biais négatif de réponse", 
@@ -167,15 +171,19 @@ On utilise quanteda .
 ```{r 04}
 # 1 définir le corpus
 
-# 2 tokeniser le corpus
 corpus<-corpus(foo1,text_field ="explication")
+
+# 2 tokeniser le corpus
+
 toks <- tokens(corpus, remove_punct = TRUE) %>% 
     tokens_remove(pattern = stopwords("fr"))%>%
    tokens_remove(pattern="Botanic.*") %>%
     tokens_group(groups = NPS)
+
 # 3 construire le dfm 
+
 dfm <- dfm(toks) %>%   
-  dfm_trim(min_termfreq = 30, verbose = FALSE)
+  dfm_trim(min_termfreq = 40, verbose = FALSE)
 
 # 4 afficher le wordcloud
 
@@ -188,15 +196,17 @@ textplot_wordcloud(dfm,comparison = TRUE, color = col)
 Une autre méthode avec meilleure préparation du texte. et surtout de la collocation
 
 
+pour le détail voir : https://quanteda.io/reference/textstat_collocations.html
+
+
 ```{r 05}
-
-
 
 toks <- tokens(corpus, remove_punct = TRUE) %>%
   tokens_group(groups = NPS)
 
-coloc <- textstat_collocations(toks, size = 2:4, min_count = 5) %>% filter(z>15)
+coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>5)
 
+coloc
 head(coloc, 20)
 
 

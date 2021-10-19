@@ -1,8 +1,0 @@
-"0",""
-"0","foo2<-foo%>%select(2,3,4,6,CaTicket,t) %>% drop_na()"
-"0","r<- round(cor(foo2),3)"
-"0","library(ggcorrplot)"
-"0","ggcorrplot(r, hc.order = TRUE, type = ""lower"","
-"0","   outline.col = ""white"","
-"0","   colors = c(""#6D9EC1"", ""white"", ""#E46726""),"
-"0","   lab=TRUE)"
