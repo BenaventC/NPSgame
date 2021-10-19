@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1634654463408.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "264FDFED",
+    "lastKnownWriteTime" : 1628525149,
+    "last_content_update" : 1628525149,
+    "path" : "~/happydemics/Vaccination Juillet 2021/VaccinationJuillet2021.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "141,2",
+        "scrollLine" : "102"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

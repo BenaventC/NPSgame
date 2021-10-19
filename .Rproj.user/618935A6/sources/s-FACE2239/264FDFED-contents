@@ -1,0 +1,459 @@
+---
+title: "Vaccination"
+author: "cb"
+date: "29/07/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(cowplot)
+library(ggmosaic)
+library(psych)
+library(rcompanion)
+library(rcompanion)
+library(ggmosaic)
+
+
+df <- read_excel("Etude - Vaccination - France - Juillet 2021 results.xlsx")
+df<-df %>% rename(Age=4,
+                  Sexe=5,
+                  Vaccination=6,
+                  Confiance=18,
+                  Activité=19,
+                  Profession=21,
+                  Distance=15,
+                  Pass=17,
+                  raisonnonvax=11,
+                  raisonvax=9,
+                  changeravis=13,
+                  Perspective=16,
+                  Activité=19,
+                  Profession=21, Preference=7)
+
+table(df$Preference)
+
+prop.table( table(df$Vaccination))
+
+df$Perspective <- factor(df$Perspective, ordered = TRUE, 
+                                levels = c("D'ici 3 mois", 
+                                           "D'ici 6 mois", 
+                                           "D'ici 1 an", 
+                                           "D'ici 2 ans",  
+                                           "Jamais"))
+
+df$Distance[df$Distance=="Entre 20 minutes et 1 heure"]<-"Entre 30 mn et 1 h"
+df$Distance[df$Distance=="Entre 10 et 30 minutes"]<-"Entre 10 et 30 mn"
+df$Distance[df$Distance=="Moins de 10 minutes"]<-"Moins de 10 mn"
+
+df$Distance[df$Distance=="Entre 20 minutes et 1 heure"]<-"Entre 30 mn et 1 h"
+df$Distance[df$Distance=="Au delà de 1h"]<-"Plus de 1 h"
+df$Distance[df$Distance=="Il n'y a pas de lieu de vaccination accessible"]<-"non accessible"
+
+df$Distance <- factor(df$Distance, ordered = TRUE, 
+                                levels = c("Moins de 10 mn", 
+                                           "Entre 10 et 30 mn", 
+                                           "Entre 30 mn et 1 h", 
+                                           "Plus de 1 h",  
+                                           "non accessible"))
+
+
+df$Vaccination[df$Vaccination=="Oui, j'ai reçu ma deuxième dose"]<-"Oui, deuxième dose"
+df$Vaccination[df$Vaccination=="Oui, j'ai reçu ma première dose"]<-"Oui, première dose"
+df$Vaccination[df$Vaccination=="Non, mais je compte le faire dans les 2 prochains mois"]<-"Oui, d'ici deux mois"
+df$Vaccination[df$Vaccination=="Non pas encore, je préfère attendre"]<-"Non, je préfère attendre"
+df$Vaccination[df$Vaccination=="Non, mais je le ferai si je suis obligé(e)"]<-"Non, si je suis obligé(e)"
+
+
+df$Vaccination <- factor(df$Vaccination, ordered = TRUE, 
+                                levels = c("Oui, deuxième dose", 
+                                           "Oui, première dose", 
+                                           "Oui, d'ici deux mois", 
+                                           "Non, je préfère attendre",
+                                           "Non, si je suis obligé(e)",
+                                           "Non, et je ne le ferai pas"))
+
+
+df$Confiance <- factor(df$Confiance, ordered = TRUE, 
+                                levels = c("Non, pas du tout", 
+                                           "Non, pas vraiment", 
+                                           "Oui, un peu", 
+                                           "Oui, tout à fait"))
+
+brks <- c(0, 0.1,.2,.3,.4,.5,.6,.7,.8, .9, 1)
+theme_set(theme_bw())
+```
+
+## Etat de la vaccination
+
+
+```{r cars}
+
+x<-c("Sexe", "Age", "Vaccination", "Activité","Profession", "Confiance", "Pass", "Distance", "Perspective")
+plots <-list()
+
+for (i in x){
+plots[[i]]<-ggplot(df,aes_string(x=i))+
+  geom_bar(aes(y = (..count..)/sum(..count..)), fill="firebrick") + 
+ scale_y_continuous(breaks = brks, labels = scales::percent(brks)) +
+  coord_flip()+ 
+  labs(title = paste0(i), subtitle="au 20 Juillet 2021", x=NULL, y="Proportion", caption = "Enquête @Happidemics Juillet21/quotas/ n=929")
+  print(plots[[i]])
+  ggsave( paste0("vaccination0_",i,".jpg"),plot=last_plot(), width = 20, height = 15, units = "cm")
+
+}
+
+g_vacc<-ggplot(df,aes(x=Vaccination))+
+  geom_bar(aes(y = (..count..)/sum(..count..), fill=Vaccination)) + 
+ scale_y_continuous(breaks = brks, labels = scales::percent(brks)) +
+  coord_flip()+ theme(legend.position = "none")+
+  labs(title = "Statut vaccinal", subtitle="au 20 Juillet 2021", x=NULL, y="Proportion", caption = "Enquête @Happidemics Juillet21/quotas/ n=929")
+g_vacc
+ggsave( paste0("vaccination00",i,".jpg"),plot=last_plot(), width = 20, height = 15, units = "cm")
+
+
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r mosaic1, echo=FALSE, fig.height=8,fig.width=15}
+
+#sexe et vaccination
+t<-table(df$Vaccination,df$Sexe)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g1 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Sexe), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = -0.1, vjust = -0.2))+ 
+  theme(legend.position = "none")+
+  labs(title="Statut vaccinal \npar genre", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+    
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g1
+
+#age et vaccination
+
+
+t<-table(df$Vaccination,df$Age)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g2 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Age), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 0, vjust = -.1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal \npar classe d'âge", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+    
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g2
+
+
+plot_grid(g1, g2, labels = c('A', 'B'), label_size = 12, ncol=2)+ 
+  draw_text("Enquête @Happidemics Juillet21/quotas/ n=929", x =.65, y = 0.01, hjust = 0, size=8)
+
+ggsave( "vaccination_1.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+
+
+#confiance et vaccination
+t<-table(df$Vaccination,df$Confiance)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g3 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Confiance), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 0.1, vjust = -.1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal par degré de confiance\nenvers les politiques ", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+
+  scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g3
+
+
+t<-table(df$Vaccination,df$Distance)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g4 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Distance), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = +1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal en fonction de\n la distance d'un centre de vaccination", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+
+    scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+
+
+plot_grid(g3, g4, labels = c('B', 'C'), label_size = 12, ncol=2)+ 
+  draw_text("Enquête @Happidemics Juillet21/quotas/ n=929", x =.65, y = 0.01, hjust = 0, size=8)
+
+ggsave( "vaccination_2.jpg",plot=last_plot(), width = 27, height = 15, units = "cm")
+
+
+```
+
+## le pass vaccinal
+
+```{r mosaic2, echo=FALSE}
+
+
+t<-table(df$Pass,df$Vaccination)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+
+foo<-df%>%group_by(Confiance)
+library(ggridges)
+g4 <- ggplot(df,aes(x=Pass,y=Vaccination)) +
+ geom_density_ridges(stat = "binline",aes(fill=Vaccination),alpha=.7,binwidth=2, rel_min_height = 0.01)+  
+  theme(legend.position = "none") +
+  labs(title="Acceptation du passe sanitaire\nen fonction du statut vaccinal", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V = ", V),x="Degré d'acceptation du passe sanitaire ( de 0 à 10)",
+       caption ="Enquête @Happidemics Juillet21/quotas/ n=929")
+g4
+
+ggsave( "vaccination4.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+
+
+
+```
+
+```{r mosaic3, echo=FALSE}
+
+
+
+
+t<-table(df$Vaccination,df$Perspective)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g15 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Perspective), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = +1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal par perspective\nd'issue de crise", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V),
+       caption ="Enquête @Happidemics Juillet21/quotas/ n=929")+
+    scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g15
+ggsave( "vaccination5.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+```
+
+```{r motiv, echo=FALSE}
+
+foo<-df%>%
+  filter(!is.na(raisonvax))
+table(foo$Vaccination)
+foo$raisonvax[foo$raisonvax=="Ne pas risquer d'avoir une amende"]<-"Autre"
+foo$raisonvax[foo$raisonvax=="Voyager à nouveau"]<-"Voyager et sortir"
+foo$raisonvax[foo$raisonvax=="Participer de nouveau à certaines activités (concerts, festivals...)"]<-"Voyager et sortir"
+library(colorspace)
+
+g10<-ggplot(foo,aes(x=Vaccination, group=raisonvax))+geom_bar(aes(y = (..count..)/sum(..count..), fill=raisonvax), position ="fill") + 
+ scale_y_continuous(breaks = brks, labels = scales::percent(brks))+coord_flip()  + 
+  labs(title="Les motivations de ceux qui\nsont ou vont se vacciner", x=NULL, y=NULL)+
+  theme(legend.position = "right", legend.title = element_text(size = 9),
+  legend.text = element_text(size = 8))+  scale_fill_discrete_qualitative(palette = "Dark 3")
+
+ggsave( "vaccination10.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+
+
+table(df$raisonnonvax)
+df$raisonnonvax[df$raisonnonvax=="Le vaccin peut provoquer des maladies graves"]<-"Effets secondaires et maladies"
+df$raisonnonvax[df$raisonnonvax=="Les effets secondaires sont nombreux et mal connus"]<-"Effets secondaires et maladies"
+df$raisonnonvax[df$raisonnonvax=="Le vaccin ne protège pas contre la Covid-19"]<-"Le vaccin ne protège pas\n contre la Covid-19"
+df$raisonnonvax[df$raisonnonvax=="Les vaccins enrichissent les laboratoires"]<-"Les vaccins enrichissent\n les laboratoires"
+
+foo<-df%>%filter(!is.na(raisonnonvax))
+
+
+g11<-ggplot(foo,aes(x=Vaccination, group=raisonnonvax))+geom_bar(aes(y = (..count..)/sum(..count..), fill=raisonnonvax), position ="fill") + 
+    labs(title="Les raisons de ceux qui \nhésitent ou refusent de se vacciner", x=NULL, y=NULL)+
+ scale_y_continuous(breaks = brks, labels = scales::percent(brks))+coord_flip()  + 
+  theme(legend.position =  "right", legend.title = element_text(size = 9),
+  legend.text = element_text(size = 8))+  scale_fill_discrete_qualitative(palette = "Dark 3")
+ggsave( "vaccination11.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+
+plot_grid(g10, g11, labels = c('A', 'B', 'C'), label_size = 12, ncol=1)
+
+ggsave( "vaccination4.jpg",plot=last_plot(), width = 27, height = 15, units = "cm")
+
+
+```
+
+```{r motiv, echo=FALSE}
+raisons<-str_split_fixed(df$changeravis, "[\\$]", 3)
+df_r<- as.data.frame(raisons)
+df_r$V1<-str_replace(df_r$V1, "[\\:][1:3]","")
+df_r$V1<-str_replace(df_r$V1, "[\\:][1:3]","")
+df_r$V1<-str_replace(df_r$V1, "[\\:][1:3]","")
+
+df_r$x1<-0
+df_r$x2<-0
+df_r$x3<-0
+df_r$x4<-0
+df_r$x5<-0
+df_r$x6<-0
+df_r$x7<-0
+df_r$x8<-0
+df_r<-cbind(df[,6],df_r)
+
+df_r<-df_r %>%mutate(Aggravation=ifelse(V1=="Le fait que l'épidémie s'aggrave / le virus devienne encore plus dangereux",1,
+                     ifelse(V2=="Le fait que l'épidémie s'aggrave / le virus devienne encore plus dangereux", 1, 
+                            ifelse(V3=="Le fait que l'épidémie s'aggrave / le virus devienne encore plus dangereux", 1, 0))))
+
+df_r<-df_r %>%mutate(Information=ifelse(V1=="Lire des études / articles sur l'efficacité des vaccins ",1,
+                     ifelse(V2=="Lire des études / articles sur l'efficacité des vaccins ", 1, 
+                            ifelse(V3=="Lire des études / articles sur l'efficacité des vaccins ", 1, 0))))
+
+df_r<-df_r %>%mutate(Imitation=ifelse(V1=="Le fait que beaucoup de gens le fassent autour de moi",1,
+                     ifelse(V2=="Le fait que beaucoup de gens le fassent autour de moi", 1, 
+                            ifelse(V3=="Le fait que beaucoup de gens le fassent autour de moi", 1, 0))))
+
+df_r<-df_r %>%mutate(Recommandation=ifelse(V1=="Les recommandations d'un ou plusieurs proches",1,
+                     ifelse(V2=="Les recommandations d'un ou plusieurs proches", 1, 
+                            ifelse(V3=="Les recommandations d'un ou plusieurs proches", 1, 0))))
+
+df_r<-df_r %>%mutate(Fiscalisation=ifelse(V1=="Le fait que les tests de dépistage deviennent payants",1,
+                     ifelse(V2=="Le fait que les tests de dépistage deviennent payants", 1, 
+                            ifelse(V3=="Le fait que les tests de dépistage deviennent payants", 1, 0))))
+
+df_r<-df_r %>%mutate(Extension=ifelse(V1=="L'extension du pass sanitaire (restaurant, bars, cinéma...)",1,
+                     ifelse(V2=="L'extension du pass sanitaire (restaurant, bars, cinéma...)", 1, 
+                            ifelse(V3=="L'extension du pass sanitaire (restaurant, bars, cinéma...)", 1, 0))))
+
+
+df_r<-df_r %>%mutate(Obligation=ifelse(V1=="Le fait que la vaccination devienne obligatoire ",1,
+                     ifelse(V2=="Le fait que la vaccination devienne obligatoire ", 1, 
+                            ifelse(V3=="Le fait que la vaccination devienne obligatoire ", 1, 0))))
+
+df_r<-df_r %>%mutate(Impermeabilité=ifelse(V1=="Rien ne pourrait me faire changer d'avis",1,
+                     ifelse(V2=="Rien ne pourrait me faire changer d'avis", 1, 
+                            ifelse(V3=="Rien ne pourrait me faire changer d'avis", 1, 0))))
+foo<-df_r %>% 
+  select(Vaccination,13:20) %>%
+  gather(key = "Raisons", value = "value", -Vaccination)
+
+foo$Raisons <- factor(foo$Raisons, ordered = TRUE, 
+                                levels = c("Aggravation", 
+                                           "Information", 
+                                           "Imitation", 
+                                           "Recommandation",  
+                                           "Fiscalisation",
+                                           "Extension",
+                                           "Obligation",
+                                           "Impermeabilité"))
+
+foo1 <-foo %>%
+  group_by(Vaccination,Raisons) %>% 
+  summarise(citations=mean(value))%>%filter(Vaccination =="Non, je préfère attendre" |Vaccination =="Non, si je suis obligé(e)"|Vaccination =="Non, et je ne le ferai pas")
+table(foo$Vaccination)
+ggplot(foo1,aes(x=Vaccination, y=citations, group=Raisons))+
+  geom_bar(stat="identity", aes(fill=Raisons))+
+  coord_flip()+labs(title = "Distribution des arguments contre-persuasifs", subtitle="Comparaion par segment", x=NULL, y=NULL)+
+  scale_fill_brewer(palette="Spectral", direction =-1)+ scale_y_continuous(breaks = brks, labels = scales::percent(brks))
+ggsave( "vaccination_argument.jpg",plot=last_plot(), width = 27, height = 15, units = "cm")
+
+```
+
+```{r mosaic3, echo=FALSE}
+
+table(df$Profession)
+df$Profession[df$Profession=="Agriculteur / Ouvrier"]<-"Agriculteur \nOuvrier"
+df$Profession[df$Profession=="Cadre dans une entreprise privée"]<-"Cadre (privé)"
+df$Profession[df$Profession=="Cadre de la fonction publique"]<-"Cadre (Public)"
+df$Profession[df$Profession=="Employé(e) dans un service de santé (soignants, ...)"]<-"Employé(e) (Santé)"
+df$Profession[df$Profession=="Employé(e) dans un service public hors santé"]<-"Employé(e) (Hors Santé)"
+df$Profession[df$Profession=="Employé(e) ou cadre dans un service restauration ou activité culturelle"]<-"Restauration, culture"
+df$Profession[df$Profession=="Medecin, pharmacien"]<-"Universitaires Medecin"
+df$Profession[df$Profession=="Enseignant / Chercheur"]<-"Universitaires Medecin"
+
+
+t<-table(df$Vaccination,df$Profession)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g16 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Profession), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = +1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal par Profession", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+
+    scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g16
+ggsave( "vaccination20a.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+
+t<-table(df$Vaccination,df$Activité)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g17 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product( Vaccination ,Activité), fill = Vaccination))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = +1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal par activité", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+
+    scale_fill_brewer(palette = "RdYlGn", direction = -1) 
+
+g17
+ggsave( "vaccination20b.jpg",plot=last_plot(), width = 20, height = 15, units = "cm")
+library(cowplot)
+plot_grid(g17, g16, labels = c('E', 'F'), label_size = 12, ncol=2)+ 
+  draw_text("Enquête @Happidemics Juillet21/quotas/ n=929", x =.65, y = 0.01, hjust = 0, size=8)
+
+ggsave( "vaccination_3.jpg",plot=last_plot(), width = 27, height = 15, units = "cm")
+
+
+```
+
+```{r mosaic4, echo=FALSE}
+foo<-df%>%filter(str_detect(Vaccination, "Oui,", negate = FALSE)==TRUE)
+
+t<-table(df$Confiance,df$Profession)
+chi2<-chisq.test(t)
+chi<-round(chi2$statistic,2)
+p<-round(chi2$p.value,3)
+V<-cramerV(t, digit=3)
+
+g4 <- ggplot(data = df) +
+  geom_mosaic(aes(x=product(Confiance, Profession ), fill = Confiance))+  
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = +1))+
+  theme(legend.position = "none") +
+  labs(title="Statut vaccinal en fonction de\n la preference", 
+       subtitle=paste0("chi2 =",chi, " p = ", p, " - V : ", V))+
+    scale_fill_brewer(palette = "RdYlGn", direction = 1) 
+
+g4
+```
+
+
+```
+
+

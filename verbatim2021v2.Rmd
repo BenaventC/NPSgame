@@ -73,7 +73,7 @@ foo$nps<-as.numeric(foo$nps)
 foo$satisfaction<-as.numeric(foo$satisfaction)
 foo$intention<-as.numeric(foo$intention)
 
-table(foo$t)
+write.csv(foo,"nps.csv")
 ```
 
 # Distribution du NPS
@@ -298,6 +298,9 @@ prop.table(ca, 2)
 #library(factoextra)
 res.ca <- CA (ca, graph = FALSE)
 fviz_ca_biplot (res.ca, repel = TRUE)
+
+
+
 
 ```
 
