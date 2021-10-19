@@ -294,6 +294,8 @@ terms(tmod_lda, 25)
 
 ## une bonne vieille analyse des correspondances
 
+pour plus de détail regarder par exemple [ Anne B Dufour ](https://pbil.univ-lyon1.fr/R/pdf/add2.pdf)
+
 ```{r 08, fig.width=9}
 #un peu de recodage
 dfm$topic <- topics(tmod_lda)
