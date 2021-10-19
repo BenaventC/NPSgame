@@ -1,0 +1,4 @@
+"0",""
+"0","library(GGally)"
+"0","ggpairs(foo2, lower = list(continuous = ""smooth_loess"", combo = ggally_dot_no_facet),title=""correlogram with ggpairs()"") "
+"0",""

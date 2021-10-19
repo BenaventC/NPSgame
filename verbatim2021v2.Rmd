@@ -6,7 +6,19 @@ output: html_document
 ---
 
 
-# les packages utilisés
+## Objectifs
+
+Comprendre quels sont les facteurs qui sont associés à une faible ou une forte recommandation. Le cas est celui d'une chaine de jardinerie et d'une enquête menée sur sa clientèle dans les années 2010. 
+
+On utilise deux questions principalement :
+
+- une échelle de recommandation (de 0 à 10)
+- une question ouverte sur les raison de la note.
+
+
+## les packages utilisés
+
+On utilise principalement les ressources de `quanteda` et l'analyse factorielle des correspondances avec `Factominer`
 
 ```{r setup,warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE, message=FALSE)
@@ -51,7 +63,7 @@ foo<-df %>%
             intention=max(intention, na.rm=TRUE),
             explication=last(explication),
             NbPassageKS=last(NbPassageKS),
-             CaTicket=last(CaTicket),
+            CaTicket=last(CaTicket),
             t=last(t))
 
 foo$CaTicket<-as.numeric(foo$CaTicket)
@@ -60,11 +72,13 @@ foo$CaTicket<-as.numeric(foo$CaTicket)
 foo$nps<-as.numeric(foo$nps)
 foo$satisfaction<-as.numeric(foo$satisfaction)
 foo$intention<-as.numeric(foo$intention)
+
+table(foo$t)
 ```
 
 # Distribution du NPS
 
-Notre tableau de données rend compte de 15000 évaluations en terme de NPS de la relation à une enseigne de jardinage. 
+Notre tableau de données rend compte de 14000 évaluations en terme de NPS de la relation à une enseigne de jardinage. 
 
 
 ```{r 03}
@@ -112,9 +126,13 @@ ggcorrplot(r, hc.order = TRUE, type = "lower",
    outline.col = "white",
    colors = c("#6D9EC1", "white", "#E46726"),
    lab=TRUE)
+
+library(GGally)
+ggpairs(foo2, lower = list(continuous = "smooth_loess", combo = ggally_dot_no_facet),title="correlogram with ggpairs()") 
+
 ```
 
-#  Un petit modèle linéaires
+##  Un petit modèle linéaire
 
 ```{r cor}
 
@@ -145,7 +163,7 @@ textplot_wordcloud(dfm,comparison = TRUE, color = col)
 
 ## Un autre wordcloud
 
-autre méthode avec meilleure préparation du text
+Une autre méthode avec meilleure préparation du texte.
 
 
 ```{r 05}
@@ -180,8 +198,9 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```
 
-## pour comparer le Keyness index est particulièrement utile
+## pour comparer les groupes, le Keyness index est particulièrement utile
 
+Il est calculé en comparant un groupe cible à l'ensemble des autres groupes par une mesure d'association : un chi², ou un point.wise correlation.
 
 ```{r 06, fig.width=9}
 
@@ -261,9 +280,9 @@ table(dfm$topic)
 #on recode pour une meilleure lecture
 dfm$topic2[dfm$topic=="topic1"]<-"conseil"
 dfm$topic2[dfm$topic=="topic2"]<-"Carte de fid"
-dfm$topic2[dfm$topic=="topic3"]<-"Caisse"
-dfm$topic2[dfm$topic=="topic4"]<-"c'est bien continuez"
-dfm$topic2[dfm$topic=="topic5"]<-"acheter"
+dfm$topic2[dfm$topic=="topic3"]<-"Bio"
+dfm$topic2[dfm$topic=="topic4"]<-"acheter"
+dfm$topic2[dfm$topic=="topic5"]<-"c'est tout bien"
 dfm$topic2[dfm$topic=="topic6"]<-"Compétence amabilité"
 dfm$topic2[dfm$topic=="topic7"]<-"prix"
 dfm$topic2[dfm$topic=="topic8"]<-"choix des plantes"
