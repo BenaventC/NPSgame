@@ -189,6 +189,12 @@ dfm <- dfm(toks) %>%
 
 textplot_wordcloud(dfm,comparison = TRUE, color = col)
 
+
+toks <- tokens(corpus, remove_punct = TRUE) %>% 
+    tokens_remove(pattern = stopwords("fr"))%>%
+   tokens_remove(pattern="Botanic.*")
+
+
 ```
 
 ## Un autre wordcloud
@@ -225,7 +231,8 @@ stat<- dfm %>%
 g_b<-ggplot(stat, aes(label = feature)) +
   geom_text_wordcloud(aes(size=log(frequency), color=group)) +
   theme_minimal()+
-  facet_wrap(vars(group))+scale_color_manual(values=col)+ 
+  facet_wrap(vars(group))+
+  scale_color_manual(values=col)+ 
   labs(title="Nuage des 50 mots les plus fréquents(Par groupes",
        caption = "La taille des mots est proportionnelle au log de leurs fréquences")
 g_b
@@ -241,17 +248,20 @@ Il est calculé en comparant un groupe cible à l'ensemble des autres groupes pa
 
 # Create a dfm per group
 dfm <-toks2 %>%
-    tokens_group(groups = NPS)%>% 
+    tokens_group(groups = NPS) %>% 
   dfm()
 
 
 # Calculate keyness and determine "Promoteurs" as target group againts all other categories
 result_keyness <- textstat_keyness(dfm, target = "Promoteurs") %>% filter (n_target>20)
+
 # Plot estimated word keyness
-g1<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE, show_reference = FALSE,   color = c("Darkgreen", "gray"))+
+g1<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE, 
+                     show_reference = FALSE,   color = c("Darkgreen", "gray"))+
   xlim(0,80) + 
   labs(x=NULL)
 
+g1
 
 result_keyness <- textstat_keyness(dfm, target = "Détracteurs" )
 g2<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE,   
@@ -263,9 +273,16 @@ g2<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = F
 result_keyness <- textstat_keyness(dfm, target = "Passifs")
 g3<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE,   show_reference = FALSE,    color = c("gold2", "gray"))+xlim(0,80)+ labs(x=NULL)
 
+
+
 p<- plot_grid(g2, g3 ,g1,  labels = c('Détracteurs', 'Passifs', 'Promoteurs'), label_size = 12, ncol=3)
+
+p
+
 title <- ggdraw() + draw_label("NPS : Les raisons qui conduisent à la recommandation (keyness)", fontface='bold')
 note <- ggdraw()+ draw_text("Les valeurs représentent le keyness des termes.\nIl mesure leur caractère distinctif par une statistique du chi²", size=8,x = 0.5, y = 0.5)
+
+
 plot_grid(title, p,note, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title margins
 
 
@@ -284,6 +301,11 @@ ggsave("NPS5.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 ## un peu de topic analysis
 
 !["modèle LDA"](Schematic-of-LDA-algorithm.png)
+
+
+source : https://arxiv.org/pdf/1003.0783.pdf
+
+
 
 ```{r 07, fig.width=9}
 # pre processing : 
@@ -315,9 +337,9 @@ dfm$topic <- topics(tmod_lda)
 table(dfm$topic)
 
 #on recode pour une meilleure lecture
-dfm$topic2[dfm$topic=="topic1"]<-"Attente caisse"
-dfm$topic2[dfm$topic=="topic2"]<-"Magasin"
-dfm$topic2[dfm$topic=="topic3"]<-"Absence"
+dfm$topic2[dfm$topic=="topic1"]<-"Magasin"
+dfm$topic2[dfm$topic=="topic2"]<-"Attente Caisse"
+dfm$topic2[dfm$topic=="topic3"]<-"Produit"
 dfm$topic2[dfm$topic=="topic4"]<-"carte de fidélité"
 dfm$topic2[dfm$topic=="topic5"]<-"achat"
 dfm$topic2[dfm$topic=="topic6"]<-"Compétence amabilité"
@@ -338,6 +360,6 @@ fviz_ca_biplot (res.ca, repel = TRUE)
 
 
 
-theta<-tmod_lda$theta
+Phi<-tmod_lda$phi
 ```
 

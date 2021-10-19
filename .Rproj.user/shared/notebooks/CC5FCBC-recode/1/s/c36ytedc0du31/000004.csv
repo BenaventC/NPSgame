@@ -1,0 +1,5 @@
+"0","foo<-as.data.frame(foo)
+"
+"2","'as.data.frame.dfm' est obsolète.
+Utilisez plutôt 'convert(x, to = ""data.frame"")'
+Voir help(""Deprecated"")"
