@@ -30,6 +30,9 @@ library(quanteda.textplots)
 library(quanteda.textstats)
 
 library(ggwordcloud)
+library(ggmosaic)
+#library(rcompanion)
+
 library(tidytext)
 library(cowplot)
 
