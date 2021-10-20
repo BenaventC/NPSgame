@@ -1,0 +1,8 @@
+"0",""
+"0","toks <- tokens(corpus, remove_punct = TRUE) %>%"
+"0","  tokens_group(groups = NPS)"
+"0",""
+"0","coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>10)"
+"0",""
+"0",""
+"0","head(coloc, 20)"

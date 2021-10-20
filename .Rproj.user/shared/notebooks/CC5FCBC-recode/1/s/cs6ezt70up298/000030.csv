@@ -1,5 +1,0 @@
-"0","effect_plot(fit, pred=t, interval = TRUE)#scale_x_log10()
-"
-"2","Using data foo1 from global environment. This could cause incorrect results if foo1 has been altered since the model was fit. You can
-manually provide the data to the ""data ="" argument.
-"

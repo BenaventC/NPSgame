@@ -1,0 +1,1 @@
+"0","ggplot(foo1,aes(CaTicket))+geom_histogram(binwidth = 1)"

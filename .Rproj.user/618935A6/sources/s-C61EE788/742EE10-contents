@@ -63,8 +63,8 @@ Notre tableau de données rend compte de près de 14000 évaluations en terme de
 foo1<-df %>%
   mutate(NPS=ifelse(nps<7, "Détracteurs", 
                     ifelse(nps>6 & nps<9,"Passifs", "Promoteurs")),
-         mutate(p=ifelse(NPS=="Promoteurs", 1, 0),
-         d=ifelse(NPS=="Détracteurs", 1, 0)))
+         p=ifelse(NPS=="Promoteurs", 1, 0),
+         d=ifelse(NPS=="Détracteurs", 1, 0))
 
 
 #calcul du score NPS
@@ -210,13 +210,13 @@ pour le détail voir : https://quanteda.io/reference/textstat_collocations.html
 toks <- tokens(corpus, remove_punct = TRUE) %>%
   tokens_group(groups = NPS)
 
-coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>5)
+coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>10)
 
-coloc
+
 head(coloc, 20)
 
 
-toks2 <- tokens_compound(toks, pattern = cols) %>%     
+toks2 <- tokens_compound(toks, pattern = coloc) %>%     
   tokens_remove(pattern = stopwords("fr") )
 
 
