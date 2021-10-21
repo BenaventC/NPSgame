@@ -1,10 +1,11 @@
 ---
-title: "Autour du NPS"
+title: "Autour du NPS : du texte au modèle de Kano"
 author: "cb"
 date: "19/10/2021"
 output: html_document
 ---
 
+![modèle de Kano](kanomodel.jpg)
 
 ## Objectifs
 
@@ -40,6 +41,9 @@ library ("FactoMineR")
 library(factoextra)
 
 library(seededlda)
+
+library(gam)
+
 
 df<-read_csv("nps.csv", locale = locale(encoding = "WINDOWS-1252"))
 
@@ -379,7 +383,9 @@ fviz_ca_biplot (res.ca, repel = TRUE)
 
 elles sont non linéaires donc adaptées à détecter une structure type kano (pour certais attributs l'absence conduit à l'insatisfaction, mais leur présence ne conduit pas à plus d'information, et pour d'autres leur absence ne conduit pas à l'insatisfaction alors que leur présence renforce la satisfaction)
 
-Dans l'idée celà correspond à la théorie bifactorielle de herzberg
+Dans l'idée celà correspond à la théorie bifactorielle de herzberg.
+
+Avec cette application on mesure la présence dans le discours d'un attribut. Ce degré de présence est simplement le paramètre theta du topic k pour texte i. Ce dont les consommateurs parlent peut a priori être aussi bien associés à une bonne ou une mauvaise opinion. Si la corrélation (linéaire est positive) c'est qu'on a affaire à un argument attractif qui ajoute aux attributs de base qui restent transparent pour le locuteur. Si elle est négative c'est qu'on à affaire à un une besoin de base, plus il pose problème et plus on en parle. D'autres attributs peuvent se caractériser par une courbe en U, il sont associé positivement quand on en parle modéremment, ou en compagnie d'un autre attribut. On observe pas la configuation d'un U inversé
 
 
 ```{r 09}
@@ -399,9 +405,6 @@ Achat= topic6,
 Prix =topic7)
 
 
-
-
-
 library(gam)
 
 mod1 <- gam(nps ~ s(Caisse) +s(Bioplantes)+s(Cartedefid)+s(Magasin)+s(Personnel)+s(Prix), 
@@ -409,12 +412,9 @@ data = topic, family = gaussian)
 
 summary(mod1)
 
-par(mfrow = c(1, 2))
+par(mfrow = c(2, 3))
 
-
-termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)"))
-termplot(mod1, rug = TRUE, se = TRUE,  terms = c("s(Magasin)", "s(Cartedefid)"))
-termplot(mod1, rug = TRUE, se = TRUE,  terms = c("s(Prix)", "s(Personnel)"))
+termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)", "s(Magasin)", "s(Cartedefid)", "s(Prix)", "s(Personnel)"))
 
 ```
 
