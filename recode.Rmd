@@ -144,12 +144,11 @@ ggpairs(foo2, lower = list(continuous = "smooth_loess", combo = ggally_dot_no_fa
 ##  Un petit modèle linéaire
 
 ```{r cor}
-ggplot(foo1,aes(CaTicket))+geom_histogram(binwidth = 1)
+#ggplot(foo1,aes(CaTicket))+geom_histogram(binwidth = 1)
+#ggplot(foo1,aes(CaTicket, nps))+geom_point()+geom_smooth() +scale_x_log10()
+#ggplot(foo1,aes(NbPassageKS, nps))+geom_point()+geom_smooth() +scale_x_log10()
 
-ggplot(foo1,aes(CaTicket, nps))+geom_point()+geom_smooth() +scale_x_log10()
-ggplot(foo1,aes(NbPassageKS, nps))+geom_point()+geom_smooth() +scale_x_log10()
-
-ggplot(foo1,aes(t, nps))+geom_point()+geom_smooth() +scale_x_log10()
+#ggplot(foo1,aes(t, nps))+geom_point()+geom_smooth() +scale_x_log10()
 
 foo1<- foo1%>%mutate(CaTicket=ifelse(CaTicket<0,0,CaTicket),
                      CaTicket_l=log10(CaTicket+1))
@@ -240,7 +239,7 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```
 
-## pour comparer les groupes, le Keyness index est particulièrement utile
+## Pour comparer les segments, le Keyness index est particulièrement utile
 
 Il est calculé en comparant un groupe cible à l'ensemble des autres groupes par une mesure d'association : un chi², ou un point.wise correlation.
 
@@ -298,7 +297,10 @@ ggsave("NPS4.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```
 
-## un peu de topic analysis
+## Un peu de topic analysis
+
+
+La structure du modèle
 
 !["modèle LDA"](Schematic-of-LDA-algorithm.png)
 
@@ -345,7 +347,7 @@ On sauvegarde les résultats pour se prémunir de l'instabilité des solutions (
 
 
 
-## une bonne vieille analyse des correspondances
+## Une bonne vieille analyse des correspondances pour associer les segments aux thèmes du discours
 
 pour plus de détails sur l'analyse des correspondances regarder par exemple [Anne B Dufour](https://pbil.univ-lyon1.fr/R/pdf/add2.pdf).
 
@@ -379,13 +381,19 @@ fviz_ca_biplot (res.ca, repel = TRUE)
 
 
 ```
-## régression gam
 
-elles sont non linéaires donc adaptées à détecter une structure type kano (pour certais attributs l'absence conduit à l'insatisfaction, mais leur présence ne conduit pas à plus d'information, et pour d'autres leur absence ne conduit pas à l'insatisfaction alors que leur présence renforce la satisfaction)
+
+## Régression gam pour mesurer les non-linéarités
+
+elles sont non linéaires donc adaptées à détecter une structure type [kano](https://fr.wikipedia.org/wiki/Mod%C3%A8le_de_Kano) (pour certais attributs l'absence conduit à l'insatisfaction, mais leur présence ne conduit pas à plus d'information, et pour d'autres leur absence ne conduit pas à l'insatisfaction alors que leur présence renforce la satisfaction)
+
+https://www.researchgate.net/publication/228434290_The_Kano_model-A_review_of_its_application_in_marketing_research_from_1984-2006/figures
 
 Dans l'idée celà correspond à la théorie bifactorielle de herzberg.
 
-Avec cette application on mesure la présence dans le discours d'un attribut. Ce degré de présence est simplement le paramètre theta du topic k pour texte i. Ce dont les consommateurs parlent peut a priori être aussi bien associés à une bonne ou une mauvaise opinion. Si la corrélation (linéaire est positive) c'est qu'on a affaire à un argument attractif qui ajoute aux attributs de base qui restent transparent pour le locuteur. Si elle est négative c'est qu'on à affaire à un une besoin de base, plus il pose problème et plus on en parle. D'autres attributs peuvent se caractériser par une courbe en U, il sont associé positivement quand on en parle modéremment, ou en compagnie d'un autre attribut. On observe pas la configuation d'un U inversé
+Avec cette application on mesure la présence dans le discours d'un attribut. Ce degré de présence est simplement le paramètre theta du topic k pour texte i. Ce dont les consommateurs parlent peut a priori être aussi bien associés à une bonne ou une mauvaise opinion. Si la corrélation (linéaire est positive) c'est qu'on a affaire à un argument attractif qui ajoute aux attributs de base qui restent transparent pour le locuteur. Si elle est négative c'est qu'on à affaire à un une besoin de base, plus il pose problème et plus on en parle. D'autres attributs peuvent se caractériser par une courbe en U, il sont associé positivement quand on en parle modéremment, ou en compagnie d'un autre attribut. On observe pas la configuration d'un U inversé.
+
+inspiré de https://rpubs.com/apierucci/lm-gam
 
 
 ```{r 09}
