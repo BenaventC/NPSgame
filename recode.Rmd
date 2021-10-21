@@ -15,6 +15,8 @@ On utilise deux questions principalement :
 - une échelle de recommandation (de 0 à 10)
 - une question ouverte sur les raison de la note.
 
+Sur la recommandation, c'est la technique du NPS qui est employée. On pourra lire la synthèse de [Daniel Ray](https://www.cairn.info/revue-l-expansion-management-review-2014-3-page-58.htm). On lira [ici ](https://hbr.org/2003/12/the-one-number-you-need-to-grow) l'article original.
+
 
 ## les packages utilisés
 
@@ -37,6 +39,7 @@ library(cowplot)
 library ("FactoMineR")
 library(factoextra)
 
+library(seededlda)
 
 df<-read_csv("nps.csv", locale = locale(encoding = "WINDOWS-1252"))
 
@@ -46,15 +49,8 @@ theme_set(theme_minimal())
 
 ```
 
-## Les données
 
-Quelques recodages
-
-```{r data}
-
-```
-
-# Distribution du NPS
+## Distribution du NPS
 
 Notre tableau de données rend compte de près de 14000 évaluations en terme de NPS de la relation à une enseigne de jardinage. 
 
@@ -120,7 +116,7 @@ g1
 
 
 
-# Structure des corrélations
+## Structure des corrélations
 
 On peut examiner la corrélation de cet indicateurs à quelques autres variables : d'autres jugements, et les comportements antérieurs.
 
@@ -244,7 +240,7 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 Il est calculé en comparant un groupe cible à l'ensemble des autres groupes par une mesure d'association : un chi², ou un point.wise correlation.
 
-```{r 06, fig.width=9}
+```{r 06}
 
 # Create a dfm per group
 dfm <-toks2 %>%
@@ -291,9 +287,9 @@ ggsave("NPS4.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 #   pres_corpus <- corpus_subset(corpus, NPS %in% c("Détracteurs", "Promoteurs"))
 
 
-plot_grid(g ,p,d, labels = c("", "", "", ""), label_size = 12, ncol = 2, nrow = )
+#plot_grid(g ,p,d, labels = c("", "", "", ""), label_size = 12, ncol = 2, nrow = )
 
-ggsave("NPS5.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
+#ggsave("NPS5.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 
 ```
@@ -305,46 +301,65 @@ ggsave("NPS5.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 source : https://arxiv.org/pdf/1003.0783.pdf
 
+preparation des données
 
-
-```{r 07, fig.width=9}
+```{r 07}
 # pre processing : 
+foo1<- foo1 %>%
+  filter(!is.na(explication))
+corpus<-corpus(foo1,text_field ="explication")
+
 toks <- tokens(corpus, remove_punct = TRUE)
 
-cols <- textstat_collocations(toks, size = 2:4, min_count = 5) %>%filter(z>20)
+cols <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>15)
 
 toks2 <- tokens_compound(toks, pattern = cols) %>%     
   tokens_remove(pattern = stopwords("fr") ) 
 
 dfm<-dfm(toks2)
 
+```
 
-library(seededlda)
-set.seed(007)
-tmod_lda <- textmodel_lda(dfm, k = 8)
+estimation du modèle
+
+
+```{r 07b, eval=FALSE}
+
+#library(seededlda)
+set.seed(123)
+tmod_lda <- textmodel_lda(dfm, k = 7)
 #lister les mots les plus associés
 terms(tmod_lda, 25)
+dfm$topic <- topics(tmod_lda)
 
+saveRDS(tmod_lda,"lda.rds")
+
+saveRDS(topic,"topic.rds")
 ```
+
+On sauvegarde les résultats pour se prémunir de l'instabilité des solutions ( en dépit du set seed) dans un format rds
+
+
 
 ## une bonne vieille analyse des correspondances
 
-pour plus de détail regarder par exemple [ Anne B Dufour ](https://pbil.univ-lyon1.fr/R/pdf/add2.pdf)
+pour plus de détails sur l'analyse des correspondances regarder par exemple [Anne B Dufour](https://pbil.univ-lyon1.fr/R/pdf/add2.pdf).
 
-```{r 08, fig.width=9}
+
+
+```{r 08}
+dfm<-readRDS("topic.rds")
 #un peu de recodage
-dfm$topic <- topics(tmod_lda)
 table(dfm$topic)
 
 #on recode pour une meilleure lecture
-dfm$topic2[dfm$topic=="topic1"]<-"Magasin"
-dfm$topic2[dfm$topic=="topic2"]<-"Attente Caisse"
-dfm$topic2[dfm$topic=="topic3"]<-"Produit"
-dfm$topic2[dfm$topic=="topic4"]<-"carte de fidélité"
-dfm$topic2[dfm$topic=="topic5"]<-"achat"
-dfm$topic2[dfm$topic=="topic6"]<-"Compétence amabilité"
+dfm$topic2[dfm$topic=="topic1"]<-"Caisse"
+dfm$topic2[dfm$topic=="topic2"]<-"Magasin"
+dfm$topic2[dfm$topic=="topic3"]<-"bioplantes"
+dfm$topic2[dfm$topic=="topic4"]<-"Personnel"
+dfm$topic2[dfm$topic=="topic5"]<-"Cartedefid"
+dfm$topic2[dfm$topic=="topic6"]<-"Achat"
 dfm$topic2[dfm$topic=="topic7"]<-"prix"
-dfm$topic2[dfm$topic=="topic8"]<-"choix des plantes"
 
 table(dfm$topic2)
 
@@ -359,7 +374,47 @@ res.ca <- CA (ca, graph = FALSE)
 fviz_ca_biplot (res.ca, repel = TRUE)
 
 
+```
+## régression gam
 
-Phi<-tmod_lda$phi
+elles sont non linéaires donc adaptées à détecter une structure type kano (pour certais attributs l'absence conduit à l'insatisfaction, mais leur présence ne conduit pas à plus d'information, et pour d'autres leur absence ne conduit pas à l'insatisfaction alors que leur présence renforce la satisfaction)
+
+Dans l'idée celà correspond à la théorie bifactorielle de herzberg
+
+
+```{r 09}
+tmod_lda<- readRDS("lda.rds")
+theta<-tmod_lda$theta
+topic<-cbind(foo1,theta)
+
+#on recode pour une meilleure lecture
+topic <- topic %>% 
+  rename(
+Caisse = topic1,
+Magasin = topic2,
+Bioplantes= topic3,
+Personnel=topic4,
+Cartedefid= topic5,
+Achat= topic6,
+Prix =topic7)
+
+
+
+
+
+library(gam)
+
+mod1 <- gam(nps ~ s(Caisse) +s(Bioplantes)+s(Cartedefid)+s(Magasin)+s(Personnel)+s(Prix), 
+data = topic, family = gaussian)
+
+summary(mod1)
+
+par(mfrow = c(1, 2))
+
+
+termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)"))
+termplot(mod1, rug = TRUE, se = TRUE,  terms = c("s(Magasin)", "s(Cartedefid)"))
+termplot(mod1, rug = TRUE, se = TRUE,  terms = c("s(Prix)", "s(Personnel)"))
+
 ```
 

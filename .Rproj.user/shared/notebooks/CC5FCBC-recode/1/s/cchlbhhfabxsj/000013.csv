@@ -1,6 +1,0 @@
-"0",""
-"0","title <- ggdraw() + draw_label(""NPS : Les raisons qui conduisent à la recommandation (keyness)"", fontface='bold')"
-"0","note <- ggdraw()+ draw_text(""Les valeurs représentent le keyness des termes.\nIl mesure leur caractère distinctif par une statistique du chi²"", size=8,x = 0.5, y = 0.5)"
-"0",""
-"0",""
-"0","plot_grid(title, p,note, ncol=1, rel_heights=c(0.1, 1)) # rel_heights values control title margins"

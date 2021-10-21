@@ -1,2 +1,0 @@
-"0",""
-"0","ggplot(foo1,aes(CaTicket, nps))+geom_point()+geom_smooth() +scale_x_log10()"

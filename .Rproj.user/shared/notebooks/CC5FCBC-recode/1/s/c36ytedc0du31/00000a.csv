@@ -1,7 +1,0 @@
-"0",""
-"0",""
-"0","toks <- tokens(corpus, remove_punct = TRUE) %>% "
-"0","    tokens_remove(pattern = stopwords(""fr""))%>%"
-"0","   tokens_remove(pattern=""Botanic.*"")"
-"0",""
-"0",""
