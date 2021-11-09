@@ -36,14 +36,14 @@ library(ggmosaic)
 library(rcompanion)
 
 library(cowplot)
-
 library ("FactoMineR")
 library(factoextra)
-
 library(seededlda)
-
 library(gam)
+```
 
+
+```{r 02}
 
 df<-read_csv("nps.csv", locale = locale(encoding = "WINDOWS-1252"))
 
@@ -126,7 +126,7 @@ On peut examiner la corrélation de cet indicateurs à quelques autres variables
 
 
 
-```{r 02}
+```{r 02b}
 
 foo2<-foo1 %>% select(3,4,5,7,8,9) %>% drop_na()
 r<- round(cor(foo2),3)
@@ -171,28 +171,24 @@ On utilise quanteda .
 # 1 définir le corpus
 
 corpus<-corpus(foo1,text_field ="explication")
+corpus
 
 # 2 tokeniser le corpus
 
-toks <- tokens(corpus, remove_punct = TRUE) %>% 
-    tokens_remove(pattern = stopwords("fr"))%>%
-   tokens_remove(pattern="Botanic.*") %>%
+toks <- tokens(corpus, remove_punct = TRUE, remove_numbers = TRUE) %>% 
+    tokens_remove(pattern = stopwords("fr")) %>% 
+  tokens_tolower()%>%
+   tokens_remove(pattern="botanic.*") %>%
     tokens_group(groups = NPS)
 
 # 3 construire le dfm 
 
 dfm <- dfm(toks) %>%   
-  dfm_trim(min_termfreq = 40, verbose = FALSE)
+  dfm_trim(min_termfreq = 50, verbose = FALSE)
 
 # 4 afficher le wordcloud
 
 textplot_wordcloud(dfm,comparison = TRUE, color = col)
-
-
-toks <- tokens(corpus, remove_punct = TRUE) %>% 
-    tokens_remove(pattern = stopwords("fr"))%>%
-   tokens_remove(pattern="Botanic.*")
-
 
 ```
 
@@ -206,12 +202,10 @@ pour le détail voir : https://quanteda.io/reference/textstat_collocations.html
 
 ```{r 05}
 
-toks <- tokens(corpus, remove_punct = TRUE) %>%
+toks <- tokens(corpus, remove_punct = TRUE) %>% tokens_tolower()%>%
   tokens_group(groups = NPS)
 
-coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>10)
-
-
+coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>15)
 head(coloc, 20)
 
 
@@ -239,6 +233,22 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```
 
+## Réseau sémantique
+
+```{r 05b}
+
+set.seed(100)
+
+
+fcmat <- fcm(toks2, context = "window",window = 10L, tri = FALSE)
+
+feat <- names(topfeatures(fcmat, 50))
+
+fcm_select(fcmat, pattern = feat) %>%
+    textplot_network(min_freq = 0.5)
+```
+    
+    
 ## Pour comparer les segments, le Keyness index est particulièrement utile
 
 Il est calculé en comparant un groupe cible à l'ensemble des autres groupes par une mesure d'association : un chi², ou un point.wise correlation.
@@ -423,6 +433,39 @@ summary(mod1)
 par(mfrow = c(2, 3))
 
 termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)", "s(Magasin)", "s(Cartedefid)", "s(Prix)", "s(Personnel)"))
+
+```
+
+## Segmenter
+
+
+```{r 09}
+
+df_clus<- topic %>% select(Caisse,Bioplantes,Cartedefid,Magasin,Personnel,Achat,Prix) %>%drop_na()
+
+dist<-dist(df_clus)
+
+
+
+fit <-hclust(dist, method="ward")
+plot(fit)
+groups <- as.data.frame(cutree(fit, k=8)) 
+
+df_clus<- cbind(df_clus, groups)%>%rename(group=8) %>% gather(variable, value , -group) %>%
+  group_by(group, variable) %>% summarise(value=mean(value))# cut tree into 5 clusters
+
+
+
+ggplot(df_clus, aes(x=group,y=value, group=variable))+geom_bar(stat="identity", aes(fill= variable))
+
+df_clus2<-cbind(topic,groups) %>%
+  rename(group=21)%>% 
+  group_by(group)%>%
+  summarise(nps=mean(nps, na.rm=TRUE))
+
+
+ggplot(df_clus2, aes(x=group,y=nps))+geom_bar(stat="identity")
+
 
 ```
 

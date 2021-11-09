@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1636486789442.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4D60F882",
+    "lastKnownWriteTime" : 7143335878519122291,
+    "last_content_update" : 1636486789442,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A08B97E9",
+        "caption" : "coloc",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=coloc&cache_key=A08B97E9",
+        "displayedObservations" : "890",
+        "environment" : "",
+        "expression" : "coloc",
+        "object" : "coloc",
+        "preview" : "0",
+        "totalObservations" : "890",
+        "variables" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
