@@ -1,8 +1,0 @@
-"0","groups <- as.data.frame(cutree(fit, k=8)) "
-"0",""
-"0","df_clus<- cbind(df_clus, groups)%>%rename(group=8) %>% gather(variable, value , -group) %>%"
-"0","  group_by(group, variable) %>% summarise(value=mean(value))# cut tree into 5 clusters"
-"0",""
-"0",""
-"0",""
-"0","ggplot(df_clus, aes(x=group,y=value, group=variable))+geom_bar(stat=""identity"", aes(fill= variable))"

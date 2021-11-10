@@ -23,9 +23,11 @@ Sur la recommandation, c'est la technique du NPS qui est employée. On pourra li
 
 On utilise principalement les ressources de `quanteda` et l'analyse factorielle des correspondances avec `Factominer`
 
-```{r setup,warning=FALSE, message=FALSE}
+```{r setup}
 knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE, message=FALSE)
 library(tidyverse)
+library(readr)
+
 library(lubridate)
 library(quanteda)
 library(quanteda.textplots)
@@ -43,24 +45,21 @@ library(gam)
 ```
 
 
-```{r 02}
-
-df<-read_csv("nps.csv", locale = locale(encoding = "WINDOWS-1252"))
-
-#palette de couleur
-col<-c("firebrick","Gold3","Darkgreen")
-theme_set(theme_minimal())
-
-```
-
 
 ## Distribution du NPS
 
 Notre tableau de données rend compte de près de 14000 évaluations en terme de NPS de la relation à une enseigne de jardinage. 
 
 
+```{r 02}
+df<-read.csv("nps.rds")
+#palette de couleur
+col<-c("firebrick","Gold3","Darkgreen")
+theme_set(theme_minimal())
+```
+
 ```{r 03}
-foo1<-df %>%
+foo1<-nps %>%
   mutate(NPS=ifelse(nps<7, "Détracteurs", 
                     ifelse(nps>6 & nps<9,"Passifs", "Promoteurs")),
          p=ifelse(NPS=="Promoteurs", 1, 0),
@@ -72,7 +71,7 @@ d<- mean(foo1$d, na.rm=TRUE)
 p<-mean(foo1$p, na.rm=TRUE)
 score_nps<- round((p-d)*100,1)
 
-
+score_nps
 
 g<-ggplot(foo1, aes(x=nps))+
   geom_histogram(binwidth = 1,aes(fill=NPS))+
@@ -101,6 +100,7 @@ foo1 <- foo1 %>%
   mutate(reponse=ifelse(is.na(explication), "Pas de réponse", "Réponse"))
 
 t<-table(foo1$NPS,foo1$reponse)
+
 
 chi2<-chisq.test(t)
 chi<-round(chi2$statistic,2)
@@ -171,20 +171,23 @@ On utilise quanteda .
 # 1 définir le corpus
 
 corpus<-corpus(foo1,text_field ="explication")
-corpus
+
 
 # 2 tokeniser le corpus
 
 toks <- tokens(corpus, remove_punct = TRUE, remove_numbers = TRUE) %>% 
     tokens_remove(pattern = stopwords("fr")) %>% 
   tokens_tolower()%>%
-   tokens_remove(pattern="botanic.*") %>%
-    tokens_group(groups = NPS)
+   tokens_remove(pattern="botanic.*")%>%
+  tokens_group(groups=NPS)
+
 
 # 3 construire le dfm 
 
 dfm <- dfm(toks) %>%   
-  dfm_trim(min_termfreq = 50, verbose = FALSE)
+  dfm_trim(min_termfreq = 10, verbose = FALSE)
+
+foo<-as.data.frame(dfm)
 
 # 4 afficher le wordcloud
 
@@ -237,15 +240,19 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```{r 05b}
 
+toks2 <- tokens(corpus, remove_punct = TRUE, remove_numbers = TRUE) %>% 
+    tokens_remove(pattern = stopwords("fr")) %>% 
+  tokens_tolower()%>%
+   tokens_remove(pattern="botanic.*") 
+
+
+fcmat <- fcm(toks2, context = "window",window = 5L, tri = FALSE)
+
+feat <- names(topfeatures(fcmat, 200))
+
 set.seed(100)
-
-
-fcmat <- fcm(toks2, context = "window",window = 10L, tri = FALSE)
-
-feat <- names(topfeatures(fcmat, 50))
-
 fcm_select(fcmat, pattern = feat) %>%
-    textplot_network(min_freq = 0.5)
+    textplot_network(min_freq = 30,vertex_labelsize=3)
 ```
     
     

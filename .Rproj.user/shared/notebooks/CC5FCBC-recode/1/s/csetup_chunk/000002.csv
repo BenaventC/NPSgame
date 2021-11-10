@@ -1,5 +1,7 @@
 "0","knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE, message=FALSE)"
 "0","library(tidyverse)"
+"0","library(readr)"
+"0",""
 "0","library(lubridate)"
 "0","library(quanteda)"
 "0","library(quanteda.textplots)"
