@@ -1,4 +1,4 @@
-"0","df<-read.csv(""nps.rds"")"
+"0","df<-read.csv(""perso.csv"") %>% rename(personnalite=4,nps=5)"
 "0","#palette de couleur"
 "0","col<-c(""firebrick"",""Gold3"",""Darkgreen"")"
 "0","theme_set(theme_minimal())"

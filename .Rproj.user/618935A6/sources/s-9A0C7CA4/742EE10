@@ -2,19 +2,19 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1634620374117.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2251896177",
     "id" : "742EE10",
-    "lastKnownWriteTime" : 1636703408,
-    "last_content_update" : 1636704053813,
+    "lastKnownWriteTime" : 1636704830,
+    "last_content_update" : 1636704830922,
     "path" : "~/_AtelierR/botanic/_Botanic 2012/Quali/NPSgame/personnalite.Rmd",
     "project_path" : "personnalite.Rmd",
     "properties" : {
-        "cursorPosition" : "76,14",
+        "cursorPosition" : "75,27",
         "last_setup_crc32" : "",
-        "scrollLine" : "73"
+        "scrollLine" : "72"
     },
     "read_only" : false,
     "read_only_alternatives" : [
