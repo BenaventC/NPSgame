@@ -75,10 +75,10 @@ ggsave("NPS1.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 g<-ggplot(df, aes(x=Marque, y= nps))+
   geom_boxplot()+
-  labs( title= " Distribution des scores NPS", 
+  labs( title= " Distribution des scores NPS par Marque", 
         subtitle = "", 
         caption = "n=", 
-        y = "Fréquence")+ 
+        y = "NPS")+ 
   scale_fill_manual(values=col) + coord_flip()
 g  
 
@@ -91,7 +91,8 @@ Comme nous allons traiter du texte et que celui n'est présent que dans une part
 
 par marque
 
-## 
+## Connaissance et expérience
+
 
 
 ```{r 02b}
