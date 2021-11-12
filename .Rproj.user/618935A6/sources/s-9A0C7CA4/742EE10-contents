@@ -52,7 +52,7 @@ Notre tableau de données rend compte de près de 14000 évaluations en terme de
 
 
 ```{r 02}
-df<-read.csv("nps.rds")
+df<-read.csv("nps.csv")
 #palette de couleur
 col<-c("firebrick","Gold3","Darkgreen")
 theme_set(theme_minimal())
@@ -205,10 +205,12 @@ pour le détail voir : https://quanteda.io/reference/textstat_collocations.html
 
 ```{r 05}
 
-toks <- tokens(corpus, remove_punct = TRUE) %>% tokens_tolower()%>%
+toks <- tokens(corpus, remove_punct = TRUE) %>% 
+  tokens_tolower()%>%
   tokens_group(groups = NPS)
 
 coloc <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>15)
+
 head(coloc, 20)
 
 
@@ -222,7 +224,7 @@ dfm <-toks2 %>%
   dfm()
 
 stat<- dfm %>% 
-  textstat_frequency(n = 50,  groups = NPS)
+  textstat_frequency(n = 30,  groups = NPS)
 
 g_b<-ggplot(stat, aes(label = feature)) +
   geom_text_wordcloud(aes(size=log(frequency), color=group)) +
@@ -238,21 +240,28 @@ ggsave("NPS3.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ## Réseau sémantique
 
+
+sur la base de 
+
+https://kateto.net/networks-r-igraph/
+
+
 ```{r 05b}
 
 toks2 <- tokens(corpus, remove_punct = TRUE, remove_numbers = TRUE) %>% 
     tokens_remove(pattern = stopwords("fr")) %>% 
   tokens_tolower()%>%
-   tokens_remove(pattern="botanic.*") 
+   tokens_remove(pattern="botanic.*", valuetype = "regex") 
 
 
 fcmat <- fcm(toks2, context = "window",window = 5L, tri = FALSE)
 
-feat <- names(topfeatures(fcmat, 200))
+feat <- names(topfeatures(fcmat, 500))
 
 set.seed(100)
 fcm_select(fcmat, pattern = feat) %>%
-    textplot_network(min_freq = 30,vertex_labelsize=3)
+    textplot_network(min_freq = 50,edge_color = "grey50",
+  edge_alpha = 0.2,vertex_labelsize=3)
 ```
     
     
@@ -269,15 +278,14 @@ dfm <-toks2 %>%
 
 
 # Calculate keyness and determine "Promoteurs" as target group againts all other categories
-result_keyness <- textstat_keyness(dfm, target = "Promoteurs") %>% filter (n_target>20)
+result_keyness <- textstat_keyness(dfm, target = "Promoteurs")
 
 # Plot estimated word keyness
 g1<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE, 
                      show_reference = FALSE,   color = c("Darkgreen", "gray"))+
-  xlim(0,80) + 
+  xlim(-20,80) + 
   labs(x=NULL)
 
-g1
 
 result_keyness <- textstat_keyness(dfm, target = "Détracteurs" )
 g2<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = FALSE,   
@@ -292,9 +300,6 @@ g3<-textplot_keyness(result_keyness,   n = 30L, labelsize = 3,   show_legend = F
 
 
 p<- plot_grid(g2, g3 ,g1,  labels = c('Détracteurs', 'Passifs', 'Promoteurs'), label_size = 12, ncol=3)
-
-p
-
 title <- ggdraw() + draw_label("NPS : Les raisons qui conduisent à la recommandation (keyness)", fontface='bold')
 note <- ggdraw()+ draw_text("Les valeurs représentent le keyness des termes.\nIl mesure leur caractère distinctif par une statistique du chi²", size=8,x = 0.5, y = 0.5)
 
@@ -330,16 +335,19 @@ preparation des données
 # pre processing : 
 foo1<- foo1 %>%
   filter(!is.na(explication))
+
 corpus<-corpus(foo1,text_field ="explication")
 
 toks <- tokens(corpus, remove_punct = TRUE)
 
-cols <- textstat_collocations(toks, size = 2:4, min_count = 10) %>% filter(z>15)
+cols <- textstat_collocations(toks, size = 2:4, min_count = 20) %>% filter(z>20)
 
 toks2 <- tokens_compound(toks, pattern = cols) %>%     
-  tokens_remove(pattern = stopwords("fr") ) 
+  tokens_remove(pattern = stopwords("fr") )
 
 dfm<-dfm(toks2)
+dfm<- dfm_trim(dfm, min_termfreq = 20, min_docfreq = 2)
+
 
 ```
 
@@ -349,19 +357,50 @@ estimation du modèle
 ```{r 07b, eval=FALSE}
 
 #library(seededlda)
+t1=Sys.time()
+
 set.seed(123)
 tmod_lda <- textmodel_lda(dfm, k = 7)
+
+t2=Sys.time()
+t=t2-t1
+t
+
 #lister les mots les plus associés
 terms(tmod_lda, 25)
+
 dfm$topic <- topics(tmod_lda)
 
-saveRDS(tmod_lda,"lda.rds")
+#saveRDS(tmod_lda,"lda.rds")
 
-saveRDS(topic,"topic.rds")
+#saveRDS(dfm,"topic.rds")
 ```
 
 On sauvegarde les résultats pour se prémunir de l'instabilité des solutions ( en dépit du set seed) dans un format rds
 
+## Analyse des topics
+
+
+```{r 10}
+tmod_lda<- readRDS("lda.rds")
+
+
+phi<-as.data.frame(tmod_lda$phi)
+phi$topic<-row.names(phi)
+phi<-phi %>%
+  gather(variable, value, -topic) %>% 
+  group_by(topic)%>%
+  mutate(rank=row_number(desc(value))) %>% filter(rank<20)
+
+ggplot(phi, aes(x=topic, y=rank,label = variable)) + 
+  scale_y_reverse() +
+  geom_text(aes(color=topic,size=1000*value))+
+  theme_minimal()+
+  scale_color_hue()+
+  guides(color="none",size="none")
+
+
+```
 
 
 ## Une bonne vieille analyse des correspondances pour associer les segments aux thèmes du discours
@@ -376,19 +415,19 @@ dfm<-readRDS("topic.rds")
 table(dfm$topic)
 
 #on recode pour une meilleure lecture
-dfm$topic2[dfm$topic=="topic1"]<-"Caisse"
-dfm$topic2[dfm$topic=="topic2"]<-"Magasin"
-dfm$topic2[dfm$topic=="topic3"]<-"bioplantes"
-dfm$topic2[dfm$topic=="topic4"]<-"Personnel"
-dfm$topic2[dfm$topic=="topic5"]<-"Cartedefid"
-dfm$topic2[dfm$topic=="topic6"]<-"Achat"
-dfm$topic2[dfm$topic=="topic7"]<-"prix"
+#dfm$topic2[dfm$topic=="topic1"]<-"Magasin"
+#dfm$topic2[dfm$topic=="topic2"]<-"Achat"
+#dfm$topic2[dfm$topic=="topic3"]<-"Cartedefid"
+#dfm$topic2[dfm$topic=="topic4"]<-"bioplantes"
+#dfm$topic2[dfm$topic=="topic5"]<-"Personnel"
+#dfm$topic2[dfm$topic=="topic6"]<-"prix"
+#dfm$topic2[dfm$topic=="topic7"]<-"Caisse"
 
-table(dfm$topic2)
+#table(dfm$topic2)
 
 #le tableau croisé
 
-ca<- table(dfm$topic2, dfm$NPS)
+ca<- table(dfm$topic, dfm$NPS)
 prop.table(ca, 2)
 
 #library ("FactoMineR")
@@ -415,31 +454,33 @@ inspiré de https://rpubs.com/apierucci/lm-gam
 
 ```{r 09}
 tmod_lda<- readRDS("lda.rds")
+
+
 theta<-tmod_lda$theta
+
 topic<-cbind(foo1,theta)
 
 #on recode pour une meilleure lecture
-topic <- topic %>% 
-  rename(
-Caisse = topic1,
-Magasin = topic2,
-Bioplantes= topic3,
-Personnel=topic4,
-Cartedefid= topic5,
-Achat= topic6,
-Prix =topic7)
+#topic <- topic %>% 
+#  rename(
+#Caisse = topic1,
+#Magasin = topic2,
+#Bioplantes= topic3,
+#Personnel=topic4,
+#Cartedefid= topic5,
+#Achat= topic6,
+#Prix =topic7)
 
+fit<-lm(nps~topic1+topic2+topic3+topic4+topic5 +topic6, data =topic)
+summary(fit)
 
 library(gam)
-
-mod1 <- gam(nps ~ s(Caisse) +s(Bioplantes)+s(Cartedefid)+s(Magasin)+s(Personnel)+s(Prix), 
-data = topic, family = gaussian)
+mod1 <- gam(nps ~ s(topic1) +s(topic2)+s(topic3)+s(topic4)+s(topic5)+s(topic6), data = topic, family = gaussian)
 
 summary(mod1)
 
 par(mfrow = c(2, 3))
-
-termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)", "s(Magasin)", "s(Cartedefid)", "s(Prix)", "s(Personnel)"))
+termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(topic1)", "s(topic2)", "s(topic3)", "s(topic4)", "s(topic5)", "s(topic6)"))
 
 ```
 
@@ -448,31 +489,73 @@ termplot(mod1,rug = TRUE, se = TRUE,  terms = c("s(Caisse)", "s(Bioplantes)", "s
 
 ```{r 09}
 
-df_clus<- topic %>% select(Caisse,Bioplantes,Cartedefid,Magasin,Personnel,Achat,Prix) %>%drop_na()
+df_clus<- topic %>% 
+  select(topic1,topic2,topic3,topic4,topic5,topic6,topic7) %>%drop_na()
 
 dist<-dist(df_clus)
 
 
 
 fit <-hclust(dist, method="ward")
+
+#afficher
 plot(fit)
-groups <- as.data.frame(cutree(fit, k=8)) 
-
-df_clus<- cbind(df_clus, groups)%>%rename(group=8) %>% gather(variable, value , -group) %>%
-  group_by(group, variable) %>% summarise(value=mean(value))# cut tree into 5 clusters
 
 
+groups <- as.data.frame(cutree(fit, k=4)) 
 
-ggplot(df_clus, aes(x=group,y=value, group=variable))+geom_bar(stat="identity", aes(fill= variable))
+df_clus<- cbind(df_clus, groups)  %>% rename(segment=8)
+
+
+foo<- df_clus %>%
+  gather(variable, value , -segment) %>%
+  group_by(segment, variable) %>% 
+  summarise(value=mean(value))# cut tree into 5 clusters
+
+g1<- ggplot(foo, aes(x=segment,y=value, group=variable))+
+  geom_bar(stat="identity", aes(fill= variable))
+
+table(df_clus$segment)
+g2<-ggplot(df_clus, aes(x=segment))+geom_bar()
+g2
+
+plot_grid(g1, g2,  nrow=2)
 
 df_clus2<-cbind(topic,groups) %>%
-  rename(group=21)%>% 
-  group_by(group)%>%
+  rename(segment=22)%>% 
+  group_by(segment)%>%
   summarise(nps=mean(nps, na.rm=TRUE))
 
 
-ggplot(df_clus2, aes(x=group,y=nps))+geom_bar(stat="identity")
+
+ggplot(df_clus2, aes(x=segment,y=nps))+geom_bar(stat="identity")
 
 
 ```
 
+```{r 10}
+df<-read.csv("nps.csv") %>% 
+  select(explication, id) %>%
+  filter(!is.na(explication))
+
+
+library(cleanNLP)
+cnlp_init_udpipe(model_name = "french")
+annotate<-cnlp_annotate(df, text_name = "explication",doc_name = "id", verbose = 1000)
+
+obj<-annotate$token
+ 
+ 
+obj<-read_rds("annotationPOS_hotel.rds")
+
+obj<-obj%>%mutate(nbcar=nchar(lemma))
+ 
+ 
+# text2<-obj%>%filter(upos %in% c("ADJ","VERB","NOUN","PROPN"),nbcar>2)
+# 
+# summary(text2$nbcar)
+# 
+# text2<-text2%>%group_by(doc_id)%>%summarise(text=paste(lemma , collapse = " "))
+# 
+# df2<-inner_join(df2,text2, by=c("ID"="doc_id"))
+```

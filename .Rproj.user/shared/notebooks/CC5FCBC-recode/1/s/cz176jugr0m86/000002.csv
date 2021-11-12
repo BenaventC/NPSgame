@@ -1,0 +1,4 @@
+"0","df<-read.csv(""nps.rds"")"
+"0","#palette de couleur"
+"0","col<-c(""firebrick"",""Gold3"",""Darkgreen"")"
+"0","theme_set(theme_minimal())"
