@@ -1,0 +1,5 @@
+"0","annotate<-cnlp_annotate(df, text_name = ""explication"",doc_name = ""id"", verbose = 1000)
+"
+"2","Error in `[.data.table`(out, , `:=`(c(""token_id"", ""token"", ""lemma"", ""upos"",  : 
+  Supplied 10 columns to be assigned an empty list (which may be an empty data.table or data.frame since they are lists too). To delete multiple columns use NULL instead. To add multiple empty list columns, use list(list()).
+"

@@ -1,9 +1,11 @@
 ---
-title: "Personnalité"
+title: "Autour du NPS : du texte au modèle de Kano"
 author: "cb"
 date: "19/10/2021"
 output: html_document
 ---
+
+![modèle de Kano](kanomodel.jpg)
 
 ## Objectifs
 
@@ -44,55 +46,49 @@ library(gam)
 
 
 
-## lecture et recodage des données
+## Distribution du NPS
+
+Notre tableau de données rend compte de près de 14000 évaluations en terme de NPS de la relation à une enseigne de jardinage. 
+
 
 ```{r 02}
-df<-read.csv("perso.csv") %>% rename(personnalite=4,nps=5)
+df<-read.csv("nps.csv")
 #palette de couleur
 col<-c("firebrick","Gold3","Darkgreen")
 theme_set(theme_minimal())
 ```
 
-## la distribution du nps
-
-générale
-
 ```{r 03}
+foo1<-nps %>%
+  mutate(NPS=ifelse(nps<7, "Détracteurs", 
+                    ifelse(nps>6 & nps<9,"Passifs", "Promoteurs")),
+         p=ifelse(NPS=="Promoteurs", 1, 0),
+         d=ifelse(NPS=="Détracteurs", 1, 0))
 
-g<-ggplot(df, aes(x=nps))+
-  geom_histogram(binwidth = 1, fill="pink")+
+
+#calcul du score NPS
+d<- mean(foo1$d, na.rm=TRUE)
+p<-mean(foo1$p, na.rm=TRUE)
+score_nps<- round((p-d)*100,1)
+
+score_nps
+
+g<-ggplot(foo1, aes(x=nps))+
+  geom_histogram(binwidth = 1,aes(fill=NPS))+
   labs( title= " Distribution des scores NPS", 
-        subtitle = "", 
-        caption = "n=", 
+        subtitle = paste0("Score NPS = ", score_nps), 
+        caption = "n=13954", 
         y = "Fréquence")+ 
-  scale_fill_manual(values=col)
+  scale_fill_manual(values=col)+
+  scale_x_discrete(name="Note NPS", 
+                   breaks=c("1","2","3","4","5","6","7", "8", "9", 10),
+                   limits=c("1","2","3","4","5","6","7", "8", "9", 10))
 g  
 ggsave("NPS1.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
 
 ```
-
-```{r 03}
-
-g<-ggplot(df, aes(x=Marque, y= nps))+
-  geom_boxplot()+
-  labs( title= " Distribution des scores NPS", 
-        subtitle = "", 
-        caption = "n=", 
-        y = "Fréquence")+ 
-  scale_fill_manual(values=col) + coord_flip()
-g  
-
-ggsave("NPS1.jpg", plot=last_plot(), width = 20, height = 20, units = "cm")
-
-```
-
 
 Comme nous allons traiter du texte et que celui n'est présent que dans une partie des réponses, on peut se demander s'il y a un biais. 
-
-par marque
-
-## 
-
 
 ```{r 02b}
 
