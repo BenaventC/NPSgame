@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1634620374117.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3058898818",
+    "id" : "742EE10",
+    "lastKnownWriteTime" : 1636724884,
+    "last_content_update" : 1636724884187,
+    "path" : "~/_AtelierR/botanic/_Botanic 2012/Quali/NPSgame/personnalite.Rmd",
+    "project_path" : "personnalite.Rmd",
+    "properties" : {
+        "cursorPosition" : "581,21",
+        "last_setup_crc32" : "46123331cc0f920f",
+        "scrollLine" : "570"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1636714200672.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "41540924",
+    "lastKnownWriteTime" : 2527340360720,
+    "last_content_update" : 1636714200672,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "0413187f6fd74bb581ecd38394349868",
+        "name" : "annotate",
+        "title" : "annotate"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

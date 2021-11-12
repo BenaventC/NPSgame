@@ -1,0 +1,119 @@
+"0","knitr::opts_chunk$set(echo = TRUE,include=TRUE, warning=FALSE, message=FALSE)"
+"0","library(tidyverse)"
+"2","le package ‘tidyverse’ a été compilé avec la version R 4.0.5"
+"2","Registered S3 methods overwritten by 'dbplyr':
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+"
+"2","[30m-- [1mAttaching packages[22m ------------------------------------------------------------------------------------------- tidyverse 1.3.1 --[39m
+"
+"2","[30m[32mv[30m [34mggplot2[30m 3.3.5     [32mv[30m [34mpurrr  [30m 0.3.4
+[32mv[30m [34mtibble [30m 3.1.3     [32mv[30m [34mdplyr  [30m 1.0.7
+[32mv[30m [34mtidyr  [30m 1.1.3     [32mv[30m [34mstringr[30m 1.4.0
+[32mv[30m [34mreadr  [30m 2.0.0     [32mv[30m [34mforcats[30m 0.5.1[39m
+"
+"2","le package ‘ggplot2’ a été compilé avec la version R 4.0.5"
+"2","le package ‘tibble’ a été compilé avec la version R 4.0.5"
+"2","le package ‘tidyr’ a été compilé avec la version R 4.0.5"
+"2","le package ‘readr’ a été compilé avec la version R 4.0.5"
+"2","le package ‘dplyr’ a été compilé avec la version R 4.0.5"
+"2","le package ‘forcats’ a été compilé avec la version R 4.0.5"
+"2","[30m-- [1mConflicts[22m ---------------------------------------------------------------------------------------------- tidyverse_conflicts() --
+[31mx[30m [34mdplyr[30m::[32mfilter()[30m masks [34mstats[30m::filter()
+[31mx[30m [34mdplyr[30m::[32mlag()[30m    masks [34mstats[30m::lag()[39m
+"
+"0","library(readr)"
+"0",""
+"0","library(lubridate)"
+"2","le package ‘lubridate’ a été compilé avec la version R 4.0.5"
+"2","
+Attachement du package : ‘lubridate’
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+"
+"0","library(quanteda)"
+"2","le package ‘quanteda’ a été compilé avec la version R 4.0.5"
+"2","Package version: 3.0.0
+Unicode version: 13.0
+ICU version: 69.1
+"
+"2","Parallel computing: 4 of 4 threads used.
+"
+"2","See https://quanteda.io for tutorials and examples.
+"
+"0","library(quanteda.textplots)"
+"2","le package ‘quanteda.textplots’ a été compilé avec la version R 4.0.5"
+"0","library(quanteda.textstats)"
+"2","le package ‘quanteda.textstats’ a été compilé avec la version R 4.0.5"
+"0","library(ggwordcloud)"
+"2","le package ‘ggwordcloud’ a été compilé avec la version R 4.0.5"
+"0","library(ggmosaic)"
+"2","le package ‘ggmosaic’ a été compilé avec la version R 4.0.5"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"0","library(rcompanion)"
+"2","le package ‘rcompanion’ a été compilé avec la version R 4.0.5"
+"0","library(cowplot)"
+"2","le package ‘cowplot’ a été compilé avec la version R 4.0.3"
+"2","
+Attachement du package : ‘cowplot’
+
+"
+"2","The following object is masked from ‘package:lubridate’:
+
+    stamp
+
+"
+"0","library (""FactoMineR"")"
+"2","le package ‘FactoMineR’ a été compilé avec la version R 4.0.3"
+"0","library(factoextra)"
+"2","le package ‘factoextra’ a été compilé avec la version R 4.0.2"
+"2","Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+"
+"0","library(seededlda)"
+"2","le package ‘seededlda’ a été compilé avec la version R 4.0.5"
+"2","
+Attachement du package : ‘seededlda’
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    terms
+
+"
+"0","library(gam)"
+"2","le package ‘gam’ a été compilé avec la version R 4.0.3"
+"2","Le chargement a nécessité le package : splines
+"
+"2","Le chargement a nécessité le package : foreach
+"
+"2","le package ‘foreach’ a été compilé avec la version R 4.0.5"
+"2","
+Attachement du package : ‘foreach’
+
+"
+"2","The following objects are masked from ‘package:purrr’:
+
+    accumulate, when
+
+"
+"2","Loaded gam 1.20
+
+"

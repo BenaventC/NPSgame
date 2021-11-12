@@ -1,0 +1,35 @@
+"0",""
+"0","library(""ldatuning"")"
+"0","library(""topicmodels"")"
+"0","raw.sum=apply(dfm,1,FUN=sum) #sum by raw each raw of the table"
+"0","dfm=dfm[raw.sum!=0,]"
+"0",""
+"0",""
+"0","result <- FindTopicsNumber("
+"0","  dfm,"
+"0","  topics = seq(from = 2, to = 10, by = 1),"
+"0","  metrics = c(""Griffiths2004"", ""CaoJuan2009"", ""Arun2010"", ""Deveaud2014""),"
+"0","  method = ""Gibbs"","
+"0","  control = list(seed = 77),"
+"0","  mc.cores = 2L,"
+"0","  verbose = TRUE"
+"0",")"
+"1","fit models..."
+"1"," done.
+"
+"1","calculate metrics:
+"
+"1","  Griffiths2004..."
+"1"," done.
+"
+"1","  CaoJuan2009..."
+"1"," done.
+"
+"1","  Arun2010..."
+"1"," done.
+"
+"1","  Deveaud2014..."
+"1"," done.
+"
+"0","FindTopicsNumber_plot(result)"
+"0",""

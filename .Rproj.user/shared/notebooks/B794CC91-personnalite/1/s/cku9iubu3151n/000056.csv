@@ -1,0 +1,18 @@
+"0",""
+"0","df_clus<- perso %>% "
+"0","  select(topic1,topic2,topic3,topic4,topic5) %>%drop_na()"
+"2","Erreur : Can't subset columns that don't exist.
+[31mx[39m Column `topic1` doesn't exist.
+Backtrace:
+[90m  1. [39m`%>%`(...)
+[90m  4. [39mdplyr:::select.data.frame(...)
+[90m  5. [39mtidyselect::eval_select(expr(c(...)), .data)
+[90m  6. [39mtidyselect:::eval_select_impl(...)
+[90m 14. [39mtidyselect:::vars_select_eval(...)
+     ...
+[90m 20. [39mtidyselect:::as_indices_impl(x, vars, strict = strict)
+[90m 21. [39mtidyselect:::chr_as_locations(x, vars)
+[90m 22. [39mvctrs::vec_as_location(x, n = length(vars), names = vars)
+[90m 24. [39mvctrs:::stop_subscript_oob(...)
+[90m 25. [39mvctrs:::stop_subscript(...)
+"
