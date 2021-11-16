@@ -1,0 +1,2015 @@
+"0","font_import()
+y
+"
+"2","Scanning ttf files in C:\WINDOWS\Fonts ...
+"
+"2","Extracting .afm files from .ttf files...
+"
+"2","C:\Windows\Fonts\AGENCYB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\AGENCYB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/AGENCYB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\AGENCYR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\AGENCYR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/AGENCYR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Alef-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Alef-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Alef-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Alef-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Alef-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Alef-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ALGER.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ALGER.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ALGER""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Amiri-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Amiri-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Amiri-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Amiri-BoldSlanted.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Amiri-BoldSlanted.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Amiri-BoldSlanted""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Amiri-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Amiri-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Amiri-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Amiri-Slanted.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Amiri-Slanted.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Amiri-Slanted""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\AmiriQuran.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\AmiriQuran.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/AmiriQuran""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUAB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUAB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ANTQUAB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUABI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUABI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ANTQUABI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUAI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUAI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ANTQUAI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arial.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arial.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/arial""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arialbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arialbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/arialbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arialbi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arialbi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/arialbi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ariali.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ariali.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ariali""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ARIALN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ARIALNB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ARIALNBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ARIALNI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ariblk.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ariblk.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ariblk""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARLRDBD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARLRDBD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ARLRDBD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\bahnschrift.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\bahnschrift.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/bahnschrift""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BASKVILL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BASKVILL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BASKVILL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BAUHS93.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BAUHS93.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BAUHS93""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BELL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELLB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELLB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BELLB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELLI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELLI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BELLI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BERNHC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BERNHC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BERNHC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BKANT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BKANT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BKANT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_B.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_B.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_B""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_BI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BLAI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BLAI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_BLAI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BLAR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BLAR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_BLAR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_CB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_CBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_CI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_CR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_I.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_I.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_I""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_PSTC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_PSTC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_PSTC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_R.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_R.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOD_R""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOS.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOS.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOOKOS""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOOKOSB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOOKOSBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BOOKOSI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRADHITC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRADHITC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRADHITC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRITANIC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRITANIC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRITANIC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRLNSB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSDB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSDB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRLNSDB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRLNSR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BROADW.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BROADW.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BROADW""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRUSHSCI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRUSHSCI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BRUSHSCI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BSSYM7.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BSSYM7.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/BSSYM7""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Caladea-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Caladea-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Caladea-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Caladea-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Caladea-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Caladea-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Caladea-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Caladea-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Caladea-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Caladea-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Caladea-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Caladea-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibri.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibri.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibri""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrib.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrib.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibrib""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrii.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrii.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibrii""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibril.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibril.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibril""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrili.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrili.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibrili""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibriz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibriz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/calibriz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALIFB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALIFI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALIFR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIST.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIST.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALIST""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALISTB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALISTBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CALISTI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/cambriab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/cambriai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriaz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriaz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/cambriaz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candara.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candara.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candara""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candarab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candarai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candaral.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candaral.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candaral""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarali.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarali.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candarali""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candaraz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candaraz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Candaraz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Carlito-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Carlito-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Carlito-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Carlito-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Carlito-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Carlito-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Carlito-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Carlito-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Carlito-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Carlito-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Carlito-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Carlito-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CASTELAR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CASTELAR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CASTELAR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENSCBK.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENSCBK.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CENSCBK""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENTAUR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENTAUR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CENTAUR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENTURY.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENTURY.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CENTURY""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CHILLER.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CHILLER.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CHILLER""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COLONNA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COLONNA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/COLONNA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/comic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comicbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comicbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/comicbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comici.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comici.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/comici""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comicz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comicz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/comicz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consola.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consola.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/consola""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/consolab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/consolai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolaz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolaz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/consolaz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constan.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constan.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/constan""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constanb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constanb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/constanb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constani.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constani.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/constani""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constanz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constanz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/constanz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COOPBL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COOPBL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/COOPBL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COPRGTB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COPRGTB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/COPRGTB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COPRGTL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COPRGTL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/COPRGTL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbel.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbel.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbel""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbelb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbeli.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbeli.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbeli""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbell.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbell.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbell""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelli.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelli.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbelli""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/corbelz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cour.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cour.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/cour""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\courbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\courbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/courbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\courbi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\courbi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/courbi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\couri.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\couri.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/couri""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CURLZ___.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CURLZ___.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/CURLZ___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidCLM-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidCLM-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidCLM-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidCLM-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidCLM-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidCLM-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidCLM-Medium.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidCLM-Medium.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidCLM-Medium""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidCLM-MediumItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidCLM-MediumItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidCLM-MediumItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidLibre-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidLibre-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidLibre-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DavidLibre-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DavidLibre-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DavidLibre-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuMathTeXGyre.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuMathTeXGyre.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuMathTeXGyre""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSans-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSans-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSans-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSans-BoldOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSans-BoldOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSans-BoldOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSans-ExtraLight.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSans-ExtraLight.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSans-ExtraLight""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSans-Oblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSans-Oblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSans-Oblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSans.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSans.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSans""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansCondensed-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansCondensed-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansCondensed-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansCondensed-BoldOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansCondensed-BoldOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansCondensed-BoldOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansCondensed-Oblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansCondensed-Oblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansCondensed-Oblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansCondensed.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansCondensed.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansCondensed""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansMono-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansMono-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansMono-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansMono-BoldOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansMono-BoldOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansMono-BoldOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansMono-Oblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansMono-Oblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansMono-Oblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSansMono.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSansMono.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSansMono""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerif-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerif-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerif-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerif-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerif-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerif-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerif-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerif-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerif-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerif.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerif.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerif""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerifCondensed-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerifCondensed-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerifCondensed-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerifCondensed-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerifCondensed-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerifCondensed-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerifCondensed-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerifCondensed-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerifCondensed-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DejaVuSerifCondensed.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DejaVuSerifCondensed.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DejaVuSerifCondensed""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-BOLD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-BOLD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DUBAI-BOLD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-LIGHT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-LIGHT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DUBAI-LIGHT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-MEDIUM.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-MEDIUM.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DUBAI-MEDIUM""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-REGULAR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-REGULAR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/DUBAI-REGULAR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ebrima.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ebrima.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ebrima""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ebrimabd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ebrimabd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ebrimabd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ELEPHNT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ELEPHNT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ELEPHNT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ELEPHNTI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ELEPHNTI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ELEPHNTI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\EmojiOneColor-SVGinOT.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\EmojiOneColor-SVGinOT.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/EmojiOneColor-SVGinOT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ENGR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ENGR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ENGR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASBD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASBD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ERASBD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASDEMI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASDEMI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ERASDEMI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASLGHT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASLGHT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ERASLGHT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASMD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASMD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ERASMD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FELIXTI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FELIXTI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FELIXTI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FORTE.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FORTE.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FORTE""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRABK.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRABK.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRABK""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRABKIT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRABKIT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRABKIT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADM.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADM.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRADM""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADMCN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADMCN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRADMCN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADMIT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADMIT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRADMIT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAHV.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAHV.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRAHV""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAHVIT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAHVIT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRAHVIT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\framd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\framd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/framd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAMDCN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAMDCN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRAMDCN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\framdit.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\framdit.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/framdit""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FrankRuehlCLM-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FrankRuehlCLM-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FrankRuehlCLM-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FrankRuehlCLM-BoldOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FrankRuehlCLM-BoldOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FrankRuehlCLM-BoldOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FrankRuehlCLM-Medium.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FrankRuehlCLM-Medium.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FrankRuehlCLM-Medium""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FrankRuehlCLM-MediumOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FrankRuehlCLM-MediumOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FrankRuehlCLM-MediumOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FREESCPT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FREESCPT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FREESCPT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRSCRIPT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRSCRIPT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FRSCRIPT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FTLTLT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FTLTLT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/FTLTLT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Gabriola.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Gabriola.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Gabriola""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\gadugi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\gadugi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/gadugi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\gadugib.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\gadugib.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/gadugib""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GARA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARABD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARABD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GARABD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARAIT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARAIT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GARAIT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBasB.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBasB.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBasB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBasBI.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBasBI.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBasBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBasI.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBasI.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBasI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBasR.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBasR.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBasR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBkBasB.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBkBasB.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBkBasB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBkBasBI.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBkBasBI.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBkBasBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBkBasI.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBkBasI.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBkBasI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GenBkBasR.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GenBkBasR.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GenBkBasR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgia.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgia.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/georgia""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/georgiab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/georgiai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiaz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiaz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/georgiaz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GIGI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GIGI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GIGI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GIL_____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GIL_____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GIL_____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILB____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILB____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILB____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILBI___.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILBI___.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILBI___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILC____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILC____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILC____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILI____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILI____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILI____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILLUBCD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILLUBCD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILLUBCD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILSANUB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILSANUB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GILSANUB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GLECB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GLECB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GLECB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GLSNECB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GLSNECB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GLSNECB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHIC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHIC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOTHIC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOTHICB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOTHICBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOTHICI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOS.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOS.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOUDOS""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOSB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOSB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOUDOSB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOSI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOSI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOUDOSI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDYSTO.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDYSTO.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/GOUDYSTO""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HARLOWSI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HARLOWSI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/HARLOWSI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HARNGTON.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HARNGTON.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/HARNGTON""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HATTEN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HATTEN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/HATTEN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\himalaya.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\himalaya.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/himalaya""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\holomdl2.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\holomdl2.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/holomdl2""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HTOWERT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HTOWERT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/HTOWERT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HTOWERTI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HTOWERTI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/HTOWERTI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\impact.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\impact.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/impact""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\IMPRISHA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\IMPRISHA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/IMPRISHA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\INFROMAN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\INFROMAN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/INFROMAN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Inkfree.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Inkfree.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Inkfree""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCBLKAD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCBLKAD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ITCBLKAD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCEDSCR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCEDSCR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ITCEDSCR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCKRIST.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCKRIST.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ITCKRIST""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\javatext.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\javatext.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/javatext""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\JOKERMAN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\JOKERMAN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/JOKERMAN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\JUICE___.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\JUICE___.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/JUICE___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\KacstBook.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\KacstBook.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/KacstBook""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\KacstOffice.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\KacstOffice.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/KacstOffice""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\KUNSTLER.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\KUNSTLER.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/KUNSTLER""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\l_10646.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\l_10646.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/l_10646""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LATINWD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LATINWD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LATINWD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITE.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITE.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LBRITE""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITED.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITED.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LBRITED""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITEDI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITEDI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LBRITEDI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITEI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITEI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LBRITEI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LCALLIG.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LCALLIG.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LCALLIG""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelaUIb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelaUIb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LeelaUIb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelawUI.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelawUI.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LeelawUI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelUIsl.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelUIsl.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LeelUIsl""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAX.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAX.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LFAX""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LFAXD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXDI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXDI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LFAXDI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LFAXI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LHANDW.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LHANDW.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LHANDW""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationMono-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationMono-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationMono-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationMono-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationMono-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationMono-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationMono-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationMono-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationMono-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationMono-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationMono-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationMono-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSans-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSans-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSans-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSans-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSans-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSans-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSans-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSans-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSans-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSans-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSans-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSans-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSansNarrow-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSansNarrow-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSansNarrow-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSansNarrow-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSansNarrow-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSansNarrow-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSansNarrow-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSansNarrow-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSansNarrow-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSansNarrow-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSansNarrow-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSansNarrow-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSerif-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSerif-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSerif-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSerif-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSerif-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSerif-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSerif-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSerif-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSerif-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LiberationSerif-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LiberationSerif-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LiberationSerif-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinBiolinum_R_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinBiolinum_R_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinBiolinum_R_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinBiolinum_RB_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinBiolinum_RB_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinBiolinum_RB_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinBiolinum_RI_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinBiolinum_RI_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinBiolinum_RI_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_DR_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_DR_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_DR_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_R_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_R_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_R_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_RB_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_RB_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_RB_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_RBI_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_RBI_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_RBI_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_RI_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_RI_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_RI_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_RZ_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_RZ_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_RZ_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LinLibertine_RZI_G.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LinLibertine_RZI_G.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LinLibertine_RZI_G""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANS.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANS.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LSANS""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LSANSD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSDI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSDI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LSANSDI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LSANSI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPE.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPE.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LTYPE""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LTYPEB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEBO.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEBO.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LTYPEBO""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEO.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEO.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/LTYPEO""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\lucon.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\lucon.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/lucon""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MAGNETOB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MAGNETOB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MAGNETOB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MAIAN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MAIAN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MAIAN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgun.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgun.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/malgun""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgunbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgunbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/malgunbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgunsl.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgunsl.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/malgunsl""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\marlett.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\marlett.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/marlett""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MATURASC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MATURASC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MATURASC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\micross.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\micross.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/micross""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamCLM-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamCLM-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamCLM-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamCLM-Book.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamCLM-Book.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamCLM-Book""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamMonoCLM-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamMonoCLM-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamMonoCLM-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamMonoCLM-BoldOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamMonoCLM-BoldOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamMonoCLM-BoldOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamMonoCLM-Book.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamMonoCLM-Book.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamMonoCLM-Book""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MiriamMonoCLM-BookOblique.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MiriamMonoCLM-BookOblique.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MiriamMonoCLM-BookOblique""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MISTRAL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MISTRAL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MISTRAL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mmrtext.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mmrtext.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/mmrtext""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mmrtextb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mmrtextb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/mmrtextb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MOD20.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MOD20.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MOD20""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\monbaiti.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\monbaiti.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/monbaiti""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\msyi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\msyi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/msyi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MTCORSVA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MTCORSVA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MTCORSVA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MTEXTRA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MTEXTRA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/MTEXTRA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mvboli.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mvboli.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/mvboli""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NIAGENG.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NIAGENG.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NIAGENG""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NIAGSOL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NIAGSOL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NIAGSOL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Nirmala.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Nirmala.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Nirmala""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NirmalaB.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NirmalaB.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NirmalaB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NirmalaS.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NirmalaS.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NirmalaS""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoKufiArabic-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoKufiArabic-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoKufiArabic-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoKufiArabic-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoKufiArabic-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoKufiArabic-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoMono-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoMono-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoMono-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoNaskhArabic-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoNaskhArabic-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoNaskhArabic-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoNaskhArabic-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoNaskhArabic-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoNaskhArabic-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoNaskhArabicUI-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoNaskhArabicUI-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoNaskhArabicUI-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoNaskhArabicUI-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoNaskhArabicUI-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoNaskhArabicUI-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-Condensed.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-Condensed.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-Condensed""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-CondensedBold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-CondensedBold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-CondensedBold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-CondensedBoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-CondensedBoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-CondensedBoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-CondensedItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-CondensedItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-CondensedItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-Light.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-Light.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-Light""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-LightItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-LightItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-LightItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSans-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSans-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSans-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArabic-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArabic-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArabic-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArabic-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArabic-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArabic-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArabicUI-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArabicUI-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArabicUI-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArabicUI-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArabicUI-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArabicUI-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArmenian-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArmenian-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArmenian-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansArmenian-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansArmenian-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansArmenian-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansGeorgian-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansGeorgian-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansGeorgian-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansGeorgian-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansGeorgian-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansGeorgian-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansHebrew-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansHebrew-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansHebrew-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansHebrew-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansHebrew-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansHebrew-Regular""' renvoie un statut 1033"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansLao-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansLao-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansLao-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansLao-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansLao-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansLao-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSansLisu-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSansLisu-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSansLisu-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-Condensed.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-Condensed.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-Condensed""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-CondensedBold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-CondensedBold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-CondensedBold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-CondensedBoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-CondensedBoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-CondensedBoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-CondensedItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-CondensedItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-CondensedItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-Light.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-Light.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-Light""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-LightItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-LightItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-LightItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerif-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerif-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerif-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifArmenian-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifArmenian-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifArmenian-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifArmenian-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifArmenian-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifArmenian-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifGeorgian-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifGeorgian-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifGeorgian-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifGeorgian-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifGeorgian-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifGeorgian-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifHebrew-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifHebrew-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifHebrew-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifHebrew-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifHebrew-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifHebrew-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifLao-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifLao-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifLao-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NotoSerifLao-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NotoSerifLao-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/NotoSerifLao-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ntailu.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ntailu.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ntailu""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ntailub.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ntailub.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ntailub""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OCRAEXT.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OCRAEXT.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/OCRAEXT""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OLDENGL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OLDENGL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/OLDENGL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ONYX.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ONYX.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ONYX""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\opens___.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\opens___.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/opens___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OUTLOOK.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OUTLOOK.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/OUTLOOK""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\pala.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\pala.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/pala""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/palab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palabi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palabi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/palabi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/palai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PALSCRI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PALSCRI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PALSCRI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PAPYRUS.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PAPYRUS.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PAPYRUS""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PARCHM.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PARCHM.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PARCHM""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PER_____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PER_____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PER_____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERB____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERB____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PERB____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERBI___.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERBI___.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PERBI___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERI____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERI____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PERI____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERTIBD.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERTIBD.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PERTIBD""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERTILI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERTILI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PERTILI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\phagspa.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\phagspa.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/phagspa""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\phagspab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\phagspab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/phagspab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PLAYBILL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PLAYBILL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PLAYBILL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\POORICH.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\POORICH.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/POORICH""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PRISTINA.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PRISTINA.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/PRISTINA""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\RAGE.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\RAGE.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/RAGE""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\RAVIE.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\RAVIE.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/RAVIE""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ReemKufi-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ReemKufi-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ReemKufi-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\REFSAN.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\REFSAN.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/REFSAN""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\REFSPCL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\REFSPCL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/REFSPCL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCC____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCC____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCC____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCCB___.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCCB___.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCCB___""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCK.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCK.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCK""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCKB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCKBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKEB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKEB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCKEB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/ROCKI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Rubik-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Rubik-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Rubik-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Rubik-BoldItalic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Rubik-BoldItalic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Rubik-BoldItalic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Rubik-Italic.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Rubik-Italic.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Rubik-Italic""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Rubik-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Rubik-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Rubik-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Scheherazade-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Scheherazade-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Scheherazade-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Scheherazade-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Scheherazade-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/Scheherazade-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SCHLBKB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKBI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKBI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SCHLBKBI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKI.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKI.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SCHLBKI""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCRIPTBL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCRIPTBL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SCRIPTBL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segmdl2.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segmdl2.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segmdl2""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoepr.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoepr.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoepr""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeprb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeprb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeprb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoesc.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoesc.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoesc""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoescb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoescb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoescb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeui.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeui.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeui""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuib.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuib.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeuib""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuii.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuii.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeuii""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuil.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuil.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeuil""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuisl.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuisl.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeuisl""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuiz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuiz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/segoeuiz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguibl.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguibl.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguibl""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguibli.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguibli.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguibli""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguiemj.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguiemj.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguiemj""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguihis.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguihis.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguihis""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguili.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguili.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguili""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguisb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisbi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisbi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguisbi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisli.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisli.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguisli""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisym.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisym.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/seguisym""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SHOWG.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SHOWG.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SHOWG""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\simsunb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\simsunb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/simsunb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SNAP____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SNAP____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SNAP____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Black.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Black.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Black""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-BlackIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-BlackIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-BlackIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-BoldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-BoldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-BoldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-ExtraLight.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-ExtraLight.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-ExtraLight""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-ExtraLightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-ExtraLightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-ExtraLightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-It.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-It.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-It""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Light.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Light.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Light""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-LightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-LightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-LightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Medium.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Medium.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Medium""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-MediumIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-MediumIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-MediumIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-Semibold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-Semibold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-Semibold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceCodePro-SemiboldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceCodePro-SemiboldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceCodePro-SemiboldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-Black.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-Black.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-Black""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-BlackIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-BlackIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-BlackIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-BoldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-BoldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-BoldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-ExtraLight.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-ExtraLight.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-ExtraLight""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-ExtraLightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-ExtraLightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-ExtraLightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-It.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-It.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-It""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-Light.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-Light.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-Light""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-LightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-LightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-LightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-Semibold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-Semibold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-Semibold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSansPro-SemiboldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSansPro-SemiboldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSansPro-SemiboldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-Black.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-Black.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-Black""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-BlackIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-BlackIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-BlackIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-Bold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-Bold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-Bold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-BoldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-BoldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-BoldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-ExtraLight.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-ExtraLight.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-ExtraLight""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-ExtraLightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-ExtraLightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-ExtraLightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-It.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-It.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-It""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-Light.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-Light.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-Light""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-LightIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-LightIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-LightIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-Regular.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-Regular.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-Regular""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-Semibold.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-Semibold.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-Semibold""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SourceSerifPro-SemiboldIt.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SourceSerifPro-SemiboldIt.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/SourceSerifPro-SemiboldIt""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\STENCIL.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\STENCIL.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/STENCIL""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\sylfaen.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\sylfaen.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/sylfaen""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\symbol.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\symbol.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/symbol""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\tahoma.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\tahoma.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/tahoma""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\tahomabd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\tahomabd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/tahomabd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\taile.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\taile.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/taile""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\taileb.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\taileb.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/taileb""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCB_____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCB_____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCB_____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCBI____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCBI____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCBI____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCB____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCB____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCCB____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCEB.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCEB.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCCEB""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCM____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCM____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCCM____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCM_____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCM_____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCM_____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCMI____.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCMI____.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TCMI____""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TEMPSITC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TEMPSITC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/TEMPSITC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\times.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\times.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/times""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/timesbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesbi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesbi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/timesbi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/timesi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebuc.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebuc.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/trebuc""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucbd.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucbd.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/trebucbd""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucbi.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucbi.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/trebucbi""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucit.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucit.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/trebucit""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdana.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdana.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/verdana""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanab.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanab.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/verdanab""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanai.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanai.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/verdanai""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanaz.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanaz.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/verdanaz""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VINERITC.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VINERITC.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/VINERITC""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VIVALDII.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VIVALDII.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/VIVALDII""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VLADIMIR.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VLADIMIR.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/VLADIMIR""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\webdings.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\webdings.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/webdings""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\wingding.ttf"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\wingding.ttf"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/wingding""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\WINGDNG2.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\WINGDNG2.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/WINGDNG2""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\WINGDNG3.TTF"
+"2","l'exécution de la commande '""C:/Users/33623/Documents/R/win-library/4.0/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\WINGDNG3.TTF"" ""C:\Users\33623\AppData\Local\Temp\RtmpKQbYG5/fonts/WINGDNG3""' renvoie un statut 5"
+"2"," : No FontName. Skipping.
+"
+"2","Found FontName for 0 fonts.
+"
+"2","Scanning afm files in C:/Users/33623/Documents/R/win-library/4.0/extrafontdb/metrics
+"

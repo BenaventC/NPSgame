@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"as.data.frame(tmod_lda$phi)","line_number":0}],"message":"Error in as.data.frame(tmod_lda$phi) : objet 'tmod_lda' introuvable\n"}

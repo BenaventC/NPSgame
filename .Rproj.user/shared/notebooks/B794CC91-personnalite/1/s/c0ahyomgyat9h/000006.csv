@@ -1,0 +1,5 @@
+"0",""
+"0",""
+"0","phi<-as.data.frame(tmod_lda$phi)"
+"2","Error in as.data.frame(tmod_lda$phi) : objet 'tmod_lda' introuvable
+"

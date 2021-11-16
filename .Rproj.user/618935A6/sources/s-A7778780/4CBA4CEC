@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1636886328927.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4CBA4CEC",
+    "lastKnownWriteTime" : 7957688328213717356,
+    "last_content_update" : 1636886328927,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E108015C",
+        "caption" : "Marque",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Marque&cache_key=E108015C",
+        "displayedObservations" : 8,
+        "environment" : "",
+        "expression" : "Marque",
+        "object" : "Marque",
+        "preview" : 0,
+        "totalObservations" : 8,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

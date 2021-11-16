@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1636878504465.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D8AB90B1",
+    "lastKnownWriteTime" : 30962719891849331,
+    "last_content_update" : 1636878504465,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "41DF1F7D",
+        "caption" : "Marque2",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Marque2&cache_key=41DF1F7D",
+        "displayedObservations" : 8,
+        "environment" : "",
+        "expression" : "Marque2",
+        "object" : "Marque2",
+        "preview" : 0,
+        "totalObservations" : 8,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
